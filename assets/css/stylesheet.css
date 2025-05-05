@@ -2,7 +2,40 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.card-img-top {
-    background-color: aqua;
-    display: flex;
+nav {
+    display: flexbox;
+    flex-direction: row;
+    text-transform: uppercase;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 100px;   
+    
+ 
+}
+
+nav a {
+   
+    position: relative;
+    left:72%;
+    text-decoration: none;
+    color: black;
+    font-size: large; 
+    margin-top: 1em;
+    border: #ffffff thin 1px;
+    padding:1em;
+}
+
+.nav-image {
+
+    width: 120px;
+    height:70px;
+    position: relative;
+    left: -27%;
+    background-color: black;
+}
+
+#image {
+    width:80%;
+    background-image: url("/assets/images/Fitness\ with\ Louise\ Logo_small\ writing\ white.png");
 }
