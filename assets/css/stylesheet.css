@@ -1,15 +1,8 @@
 body {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
-.section-style {
-    border: 1px solid black;
-    background-color: antiquewhite;
-    width: 100%;
-    height: 200px;
-}
-
-p {
-    color: red
-    ;
+.card-img-top {
+    background-color: aqua;
+    display: flex;
 }
