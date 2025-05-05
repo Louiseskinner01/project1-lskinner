@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 nav {
@@ -10,12 +11,9 @@ nav {
     background-color: white;
     width: 100%;
     margin-bottom: 100px;   
-    
- 
 }
 
 nav a {
-   
     position: relative;
     left:72%;
     text-decoration: none;
@@ -27,7 +25,6 @@ nav a {
 }
 
 .nav-image {
-
     width: 120px;
     height:70px;
     position: relative;
@@ -37,5 +34,27 @@ nav a {
 
 #image {
     width:80%;
-    background-image: url("../images/apple-touch-icon.png");
+    background-repeat: no-repeat;
+}
+
+.col {
+    background-color: rgb(242, 242, 242); 
+    border: solid 1px #ffffff;
+ 
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    }
+    
+    footer li {
+        color: white;
+    }
+
+#video-homepage {
+    height: 400px;
 }
