@@ -41,13 +41,14 @@ nav a {
 #image {
     width: 50%;
     height: 50%;
-    background-repeat: no-repeat;
+    
+    margin: auto;
     padding: 0;
     margin: 0;
 }
 
 video {
-width: fit-content;
+width: 100%;
 }
 
 footer {
