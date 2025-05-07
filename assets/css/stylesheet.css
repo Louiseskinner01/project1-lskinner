@@ -33,7 +33,7 @@ nav a {
 .nav-image {
     display: flex;
     justify-self: left;
-    width: 120px;
+    width: 7rem;
     height:70px;
     background-color: black;
 }
@@ -64,6 +64,11 @@ footer {
     footer li {
         color: white;
     }
+
+    .col {
+        height: 400px;
+    }
+
 
 
 
