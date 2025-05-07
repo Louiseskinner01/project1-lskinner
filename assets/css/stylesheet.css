@@ -39,15 +39,15 @@ nav a {
 }
 
 #image {
-   
-  
+    width: 50%;
+    height: 50%;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
 }
 
 video {
-    width:100%;
+width: fit-content;
 }
 
 footer {
