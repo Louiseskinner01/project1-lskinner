@@ -46,16 +46,19 @@ nav a {
     margin: 0;
 }
 
+video {
+    width:100%;
+}
 
 footer {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    justify-content: center;
     background-color: black;
     width: 100%;
-    position: absolute;
     margin-top: 3em;
-    padding: 10px;
-    bottom: auto;
+    padding: 2px;
     }
     
     footer li {
