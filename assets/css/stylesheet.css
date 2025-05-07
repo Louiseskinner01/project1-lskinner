@@ -13,25 +13,26 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    text-transform: uppercase;
-    padding: 2px;
     position: relative;
+    padding: 2px;
     background-color: white;
     width: 100%;
-    margin-bottom: 3rem;   
+    margin-bottom: 2rem; 
+    
+      
 }
 
 nav a {
-    display: flex;
-    flex-direction: row;
-    position: relative;
+    text-transform: uppercase;
     width:30%;
     text-decoration: none;
     font-size: 0.75rem; 
     color: black;
-    margin-top: 1em;
-    border: #ffffff thin 1px;
-    padding:1em;
+    margin-top: 2em;
+    padding-left: 1rem;
+    
+   
+    
 }
 
 .nav-image {
@@ -44,7 +45,7 @@ nav a {
 
 #image {
     width: 100%;
-    height: 28rem;
+    height: 24rem;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
@@ -53,13 +54,14 @@ nav a {
 
 video {
     width: 100%;
-    height: 400px;
-    
+    margin: 0%;
+    padding: 0%;
 }
 
+
 #video-homepage {
-    margin-top: 0%;
-    padding: 0%;
+  padding-top: 2rem;
+    padding-bottom: 0%;
 }
 
 footer {
@@ -68,7 +70,7 @@ footer {
     background-color: black;
     width: 100%;
     position: absolute;
-    margin-bottom: 0;
+    margin-top: 3em;
     padding: 10px;
     bottom: auto;
     }
@@ -83,3 +85,35 @@ section {
 }
 
 
+/*media queries below*/
+
+
+@media screen and (min-width: 576px) {
+    nav {
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        background-color: pink;
+       
+    }
+
+    .col {
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav {
+        background-color: rgb(19, 188, 100);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+        nav {
+            background-color: rgb(231, 192, 255);
+        }
+
+    }
