@@ -51,8 +51,10 @@ nav a {
 
 #video-homepage {
     background-clip: url("assets/videos/RPReplay_Final1657383025.MP4") ;
-    min-width: 320px;
- 
+}
+
+video {
+    width: min-content
 }
 
 footer {
@@ -91,11 +93,7 @@ footer {
         background-color: pink;
        
     }
-
-    .col {
-
     }
-}
 
 @media screen and (min-width: 992px) {
     nav {
