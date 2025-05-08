@@ -10,26 +10,19 @@ body {
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    text-transform: uppercase;
     padding: 2px;
     position: relative;
-    padding: 2px;
     background-color: white;
     width: 100%;
-    margin-bottom: 3rem;   
-    margin-bottom: 2rem; 
-    
-      
+    text-transform: uppercase;
 }
 
 nav a {
+    display: block;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.75em; 
     color: black;
-    margin-top: 3em;
     padding-left: 1rem;
     
 }
@@ -46,7 +39,7 @@ nav a {
     display: flex;
     height: 28rem;
     height: 24rem;
-    margin: auto;
+    background-repeat: no-repeat;
     padding: 0;
     margin: 0;
 }
