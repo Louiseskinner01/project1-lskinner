@@ -38,7 +38,7 @@ nav a {
 #image-homepage {
     display: flex;
     height: 28rem;
-    height: 24rem;
+    width: 24rem;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
