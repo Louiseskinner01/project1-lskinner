@@ -31,7 +31,7 @@ nav a {
 }
 
 #nav-image {
-    display: flex;
+    
     justify-self: left;
     width: 7rem;
     height:70px;
@@ -47,16 +47,21 @@ nav a {
     margin: 0;
 }
 
-
+#slogan-home {
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(241, 255, 250);
+    height: 9rem;
+}
 
 footer {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: relative;
     justify-content: center;
     background-color: black;
     width: 100%;
-    margin-top: 3em;
+    
     padding: 2px;
     }
     
