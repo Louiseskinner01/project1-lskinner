@@ -54,7 +54,7 @@ nav a {
 }
 
 video {
-    width: min-content
+    width: 50%;
 }
 
 footer {
@@ -72,9 +72,7 @@ footer {
         color: white;
     }
 
-    .col {
-        height: 400px;
-    }
+   
 
 
 
