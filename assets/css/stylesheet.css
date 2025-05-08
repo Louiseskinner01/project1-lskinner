@@ -30,7 +30,7 @@ nav a {
     padding-left: 1rem;
 }
 
-.nav-image {
+#nav-image {
     display: flex;
     justify-self: left;
     width: 7rem;
@@ -45,12 +45,6 @@ nav a {
     margin: auto;
     padding: 0;
     margin: 0;
-}
-
-
-
-#video-homepage {
-    background-clip: url("assets/videos/RPReplay_Final1657383025.MP4");
 }
 
 
