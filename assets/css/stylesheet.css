@@ -50,12 +50,10 @@ nav a {
 
 
 #video-homepage {
-    background-clip: url("assets/videos/RPReplay_Final1657383025.MP4") ;
+    background-clip: url("assets/videos/RPReplay_Final1657383025.MP4");
 }
 
-video {
-    width: 50%;
-}
+
 
 footer {
     display: flex;
