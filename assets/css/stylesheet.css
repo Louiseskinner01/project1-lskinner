@@ -48,7 +48,7 @@ nav a {
 }
 
 video {
-width: 100%;
+min-width: 320px;
 }
 
 #video-homepage {
