@@ -39,9 +39,9 @@ nav a {
 }
 
 #image {
+    display: flex;
     width: 50%;
     height: 50%;
-    
     margin: auto;
     padding: 0;
     margin: 0;
@@ -49,6 +49,10 @@ nav a {
 
 video {
 width: 100%;
+}
+
+#video-homepage {
+    background-clip: url("assets/videos/RPReplay_Final1657383025.MP4") ;
 }
 
 footer {
