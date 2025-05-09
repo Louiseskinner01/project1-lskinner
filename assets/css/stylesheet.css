@@ -7,6 +7,8 @@
 
 body {
     margin: 0;
+    
+   
 }
 
 nav {
@@ -47,22 +49,10 @@ nav a {
     background-color: #ffffff;
     height: 9rem;
 }
-
-footer {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    background-color: #ffffff;
-    width: 100%;
-    padding-top: 5px;
-
-    }
-    
+  
 .footer-social-links {
-    margin: auto;
-    display: flex;
     font-size: 150%;
-    letter-spacing: 5em;   
+    letter-spacing: 5em;  
     }
 footer li {
         color: black;
@@ -77,6 +67,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+   
 }
 
 section {
