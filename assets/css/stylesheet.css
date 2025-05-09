@@ -44,7 +44,7 @@ nav a {
 #slogan-home {
     display:flex;
     flex-direction: row;
-    background-color: rgb(241, 255, 250);
+    background-color: #ffffff;
     height: 9rem;
 }
 
@@ -59,27 +59,35 @@ footer {
     }
     
 .footer-social-links {
-     margin: auto;
-        list-style-type: none;
-        display: flex;
-        font-size: 150%;
-        letter-spacing: 5em;
-     
-       
+    margin: auto;
+    display: flex;
+    font-size: 150%;
+    letter-spacing: 5em;   
     }
 footer li {
         color: black;
     }
 
-  
+li {
+    list-style-type: none;
+}
 
-   .fa-brands {
+.fa-brands {
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+section {
+    padding: 2px 20px;
+}
+
+#section-list {
+text-align: center;
+letter-spacing: 2px;
+padding: 2px 10px;
+}
 
 
 /*media queries below*/
