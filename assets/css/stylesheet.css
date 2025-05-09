@@ -52,19 +52,33 @@ footer {
     display: flex;
     flex-direction: row;
     position: relative;
-    justify-content: center;
-    background-color: black;
+    background-color: #ffffff;
     width: 100%;
-    
-    padding: 2px;
+    padding-top: 5px;
+
     }
     
-    footer li {
-        color: white;
+.footer-social-links {
+     margin: auto;
+        list-style-type: none;
+        display: flex;
+        font-size: 150%;
+        letter-spacing: 5em;
+     
+       
+    }
+footer li {
+        color: black;
     }
 
-   
+  
 
+   .fa-brands {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 
 
