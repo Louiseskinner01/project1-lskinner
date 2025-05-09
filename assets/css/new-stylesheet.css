@@ -81,7 +81,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-#burger-icon::checked nav-items{
+#burger-icon{
     display: block; }
 
 
