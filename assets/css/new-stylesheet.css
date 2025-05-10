@@ -57,7 +57,7 @@ input[type="checkbox"] :checked ~ .nav-items {
 
 
 #image-homepage {
-    height: 30rem;
+    height: 20rem;
     width:  100%;
     padding: 0;
     margin: 0 auto;
