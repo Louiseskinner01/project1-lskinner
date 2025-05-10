@@ -39,10 +39,11 @@ nav a {
 }
 .label-burger-icon {
     position: relative;
-    left: 50%;
-    font-size: 45px;
+    left: 40%;
+    font-size: 50px;
     color: red;
     cursor: pointer;
+    padding-right: 30px;
 }
 
 input[type="checkbox"] {
@@ -53,10 +54,6 @@ input[type="checkbox"] :checked ~ .nav-items {
     background-color: rgb(186, 48, 214);
     font-size: 60px;
 }
-
-
-
-
 
 
 #image-homepage {
@@ -101,34 +98,43 @@ list-style-type: none;
 
 
 /*media queries below*/
-
-
 @media screen and (min-width: 576px) {
-    nav {
-        background-color: pink;
-    }
     nav a {
         display: inline-flex;
         flex-direction: row;
-        color: aqua;}
+        font-size: larger;
+        padding-left: 5%;
+        margin-right: 2%;
+    }
+    #nav-image {
+    margin-right: 15%;
+    }
+    .label-burger-icon {
+    display: none;
+    }
+    .row-one {
+    width: 20%;
+    background-color: aqua;
+    }
+    .row-two {
+     width: 33%;
+    }
 }
 
 @media screen and (min-width: 768px) {
-    nav {
-        background-color: pink;
-
+    #nav-image {
+        margin-right: 25%;
     }
     }
 
 @media screen and (min-width: 992px) {
-    nav {
-        background-color: rgb(19, 188, 100);
+    #nav-image {
+        margin-right: 35%;
     }
 }
 
 @media screen and (min-width: 1200px) {
-        nav {
-            background-color: rgb(231, 192, 255);
-        }
-
+    #nav-image {
+        margin-right: 45%;
+    }
     }
