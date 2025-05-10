@@ -37,6 +37,27 @@ nav a {
     margin-right:30px;
     padding-left: 10px;
 }
+.label-burger-icon {
+    position: relative;
+    left: 50%;
+    font-size: 45px;
+    color: red;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+   display: none;
+}
+
+input[type="checkbox"] :checked ~ .nav-items { 
+    background-color: rgb(186, 48, 214);
+    font-size: 60px;
+}
+
+
+
+
+
 
 #image-homepage {
     height: 30rem;
@@ -76,24 +97,6 @@ letter-spacing: 2px;
 padding: 2px 10px;
 list-style-type: none;
 }
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"]:checked ~ nav {
-display: none;
-}
-
-
-.label-burger-icon {
-    position: relative;
-    left: 50%;
-    font-size: 45px;
-    color: red;
-    cursor: pointer;
-}
-
 
 
 
