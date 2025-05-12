@@ -26,17 +26,14 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.75em; 
-    color: black; 
-   
+    color: black;
 }
 
-.nav-tabs {
-   color: red;
-   font-size: 1em; 
-   text-decoration: none;
- 
-}
 
+.nav-a-tabs {
+    color: rgb(243, 0, 0);
+    font-style: bold;
+}
 
 #nav-image {
     height: 100px;
@@ -50,18 +47,16 @@ nav a {
     font-size: 50px;
     color: red;
     cursor: pointer;
-   
 }
 
 input[type="checkbox"] {
    display: none;
 }
 
-input[type="checkbox"] :checked ~ .nav-items { 
+input[type="checkbox"] :checked ~ nav a { 
     background-color: rgb(186, 48, 214);
     font-size: 60px;
 }
-
 
 #image-homepage {
     height: 30rem;
@@ -106,7 +101,7 @@ list-style-type: none;
 }
 
 li {
-    list-style-type: none;
+    list-style: none;
 }
 
 /*media queries below*/
@@ -138,18 +133,18 @@ li {
 
 @media screen and (min-width: 768px) {
     #nav-image {
-        margin-right: 25%;
+        margin-right: 30%;
     }
     }
 
 @media screen and (min-width: 992px) {
     #nav-image {
-        margin-right: 35%;
+        margin-right: 41%;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #nav-image {
-        margin-right: 45%;
+        margin-right: 47%;
     }
     }
