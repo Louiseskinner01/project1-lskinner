@@ -26,10 +26,17 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.75em; 
-    color: black;
-    padding-left: 1rem;
-    
+    color: black; 
+   
 }
+
+.nav-tabs {
+   color: red;
+   font-size: 1em; 
+   text-decoration: none;
+ 
+}
+
 
 #nav-image {
     height: 100px;
@@ -84,8 +91,7 @@ input[type="checkbox"] :checked ~ .nav-items {
 
 section {
     padding: 2px 20px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 
 #section-list {
@@ -111,9 +117,6 @@ li {
     }
     #image-homepage {
         height: 20rem;
-    }
-    nav {
-        margin-bottom: 2em;
     }
 }
 @media screen and (min-width: 576px) {
