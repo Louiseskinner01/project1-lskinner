@@ -97,7 +97,7 @@ list-style-type: none;
 }
 
 .row-one {
-    height: 30rem;
+    height: 20rem;
 }
 
 li {
@@ -108,7 +108,7 @@ li {
 /*nutrition.html*/
 #macronutrients-row {
     background-repeat: no-repeat;
-    background-image: url("../images/nutrients.webp");
+    background-image: url("../images/nutrients.jpg");
     width: 100%;
     height: 250px;
 }
