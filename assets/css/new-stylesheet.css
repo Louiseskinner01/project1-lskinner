@@ -125,12 +125,10 @@ li {
 
 
 /*nutrition.html*/
-#macronutrients-row {
-    background-repeat: no-repeat;
-    background-image: url("../images/nutrients.jpg");
-    width: 100%;
-    height: 430px;
-
+#macronutrients-row img {
+    
+    height: 25%;
+    width: 50%;
 }
 
 
