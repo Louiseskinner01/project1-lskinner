@@ -123,18 +123,21 @@ li {
     list-style: none;
 }
 
-
 /*nutrition.html*/
 #macronutrients-row img {
-    
     height: 25%;
     width: 50%;
 }
 
 
 
-/*media queries below*/
+.juice-images {
+  
+    height: 15em;
+    
+}
 
+/* media queries below */
 @media screen and (min-width: 436px){
     .row-one {
         height: 20rem;
