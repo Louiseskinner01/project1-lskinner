@@ -71,14 +71,8 @@ input[type="checkbox"] :checked ~ nav a {
 }
 
 
-
-
-
-
-
-
 #image-homepage {
-    height: 30rem;
+    height: 25rem;
     width:  100%;
     padding: 0;
     margin: 0 auto;
@@ -136,10 +130,7 @@ li {
     margin-bottom: 8px;
 }
 
-h6 {
-    font-size: 16px;
-    font-style: bold;
-}
+
 
 
 
