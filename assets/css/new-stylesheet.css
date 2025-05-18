@@ -119,9 +119,9 @@ li {
 }
 
 /*nutrition.html*/
-#macronutrients-row img {
-    height: 25%;
-    width: 50%;
+#image-macronutrients {
+    height: 30em;
+    width: 100%;
 }
 
 
