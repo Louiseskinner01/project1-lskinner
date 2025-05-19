@@ -131,7 +131,20 @@ li {
     margin-bottom: 8px;
 }
 
+/* gym.hyml*/
 
+#bookings {
+    width: 130px;
+    height: 45px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+    position: fixed;
+    border-radius: 5px;
+    font-size: smaller;
+    right: 0;
+    margin-right: 4px;
+}
 
 
 
