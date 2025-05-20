@@ -139,6 +139,10 @@ div .col-sm-6, .col-lg-12 {
     margin-bottom: 30px;
 }
 
+table {
+color: red;
+}
+
 /* gym.hyml*/
 
 #bookings {
