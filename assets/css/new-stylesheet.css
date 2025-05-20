@@ -35,10 +35,12 @@ nav a {
     text-decoration: none;
     font-size: 0.75em; 
     color: black;
+    
 }
 .nav-a-tabs {
     color: rgb(243, 0, 0);
     font-style: bold;
+    right: 0;
 }
 
 #nav-image {
@@ -50,7 +52,7 @@ nav a {
 .label-burger-icon {
     position: absolute;
     right: 0;
-    margin-right: 4px;
+    margin-right: 6px;
     font-size: 50px;
     color: red;
     cursor: pointer;
@@ -123,8 +125,12 @@ li {
 #image-macronutrients {
     height: 30em;
     width: 100%;
+    margin-bottom: 30px;
 }
 
+div .col-sm-6, .col-lg-12 {
+    padding: 0;
+}
 
 
 .juice-images {
@@ -163,6 +169,7 @@ li {
 }
 @media screen and (min-width: 576px) {
     nav a {
+     
         display: inline-flex;
         flex-direction: row;
         font-size: larger;
