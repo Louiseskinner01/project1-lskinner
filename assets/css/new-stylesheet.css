@@ -19,9 +19,6 @@ h1, h6 {
    padding-left: 7px;
 }
 
-#h1-juices {
-    margin-top: 2em;
-}
 nav {
     padding: 2px;
     position: relative;
@@ -123,7 +120,7 @@ li {
 
 /*nutrition.html*/
 #image-macronutrients {
-    height: 30em;
+    height: 20em;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -136,6 +133,10 @@ div .col-sm-6, .col-lg-12 {
 .juice-images {
     height: 8em; 
     margin-bottom: 8px;
+}
+
+#minerals-row {
+    margin-bottom: 30px;
 }
 
 /* gym.hyml*/
