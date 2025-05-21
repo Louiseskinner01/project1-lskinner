@@ -13,11 +13,6 @@ body {
     margin: 0;
 }
 
-h1, h6 {
-  
-   padding-top: 5px;
-   padding-left: 7px;
-}
 
 nav {
     padding: 2px;
@@ -120,7 +115,7 @@ li {
 
 /*nutrition.html*/
 #image-macronutrients {
-    height: 25em;
+    height: 18em;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -139,7 +134,14 @@ div .col-sm-6, .col-lg-12 {
     margin-bottom: 30px;
 }
 
+caption {
+    visibility: hidden;
+}
 
+#macronutrients h4 {
+    text-align: center;
+    padding-bottom: 12px;
+}
 
 /* gym.hyml*/
 
@@ -188,6 +190,9 @@ div .col-sm-6, .col-lg-12 {
     .navbar-toggler-icon{
         visibility: hidden;
     }
+    #macronutrients h4 {
+        text-align: end;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -195,6 +200,7 @@ div .col-sm-6, .col-lg-12 {
         margin-right: 28%;
     }
 
+   
     }
 
 @media screen and (min-width: 992px) {
