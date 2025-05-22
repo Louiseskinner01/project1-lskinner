@@ -124,6 +124,9 @@ div .col-sm-6, .col-lg-12 {
     padding: 0;
 }
 
+div, iframe, img {
+    border-radius: 15px;
+}
 
 .juice-images {
     height: 8em; 
@@ -162,6 +165,8 @@ caption {
     font-weight: bold;
     font-size: smaller;
 }
+
+
 
 /* media queries below */
 @media screen and (min-width: 436px){
