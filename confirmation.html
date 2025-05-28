@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="free oline classes, gaining strength and losing body fat, health and wellness, promoting healthy curves">
+    <meta name="keyword" content="online class, fitness, strength, motivation, weight loss, personal training">
+    <meta name="author" content="Louise Skinner">
+    <!--CSS styling link-->
+    <link rel="stylesheet" href="assets/css/new-stylesheet.css">
+    <title>FWL Form Submitted</title>
+    <!--Favcon link-->
+    <link rel="icon" type="image/x-icon" href="../project1-lskinner/assets/images/apple-touch-icon.png">
+    <!--Bootstrap version 5.3.3 link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!--Bootstrap icon link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fwl-bg-color mb-9" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="bookings.html">
+                    <img src="assets/images/Fitness with Louise Logo_small writing white.png" alt="I am an image of the FWL logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="my-gym.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nutrition.html">Nutrition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bookings.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <button type="submit" class="btn btn-primary"><a href="index.html">Back to the FWL Homepage</a></button>
+</main>
+
+
+<footer id="footer" class="fwl-bg-color">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 id="footer-heading" class="">Follow us!</h2>
+          </div>
+          <div class="col-6 justify-content-center">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><i
+                    class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+   <a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+                    class="fa-brands fa-square-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+  
+    
+</footer>
+<!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+<script>
+document
+    .querySelectorAll(".navbar-collapse .nav-link")
+    .forEach((link) => {
+        link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+                e.preventDefault(); // Prevent default anchor click behavior
+                let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                window.scroll({
+                    top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                    behavior: "smooth",
+                });
+                document
+                    .querySelector(".navbar-collapse")
+                    .classList.remove("show"); // Collapse navbar
+            }
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/8a493ccc19.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+<!-- Enambles me to use Bootstrap dropdown features-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+

@@ -1,47 +1,88 @@
-/*this is a wild card that enables me to style all elements in the css file. It will be used to remove all default settings, see below*/
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* CSS Variables */
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: rgba(48, 186, 255, 0.967);
+    --bs-dark: #212529;
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 html {
-    height: 100%;
+    height: 100vh;
 }
 
 body {
     margin: 0;
-}
-
-.nav-link.active {
-    color: red !important;
-}
-
-#image-homepage {
-    height: 20rem;
-    width: 100%;
     padding: 0;
-    margin: 0 auto;
+    border: 0;
+    font-family: var(--primary-font);
+   
 }
 
-#slogan-home {
-    display: flex;
-    flex-direction: row;
-    background-color: #ffffff;
-    height: 9rem;
+.white-space {
+margin-bottom: 9rem;
 }
 
-.footer-social-links {
-    font-size: 150%;
-    letter-spacing: 1em;
-    list-style-type: none;
-    justify-content: space-evenly;
-    display: flex;
+div,
+iframe,
+img {
+    border-radius: 8px;
 }
 
-.fa-brands {
-    color: black;
+.fwl-bg-color {
+background-color: var(--bs-dark);
 }
+
+/* Navbar styling*/
+a.nav-link {
+    color: white;
+    font-size: 130%; 
+    font-style: var(--primary-font);
+}
+
+a.nav-link:hover {
+  color: rgb(237, 229, 229);
+}
+
+.active {
+    color: red !important;  
+    padding: 0;
+
+}
+
+.active:hover {
+    font-weight: bold; 
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 100px;
+
+}
+
+
+/* Footbar styling */
+
+#footer-heading {
+color: white;
+padding: 4px;
+}
+
+i {
+    color: white;
+    font-size: 150%; 
+}
+
+i:hover {
+    color: red;
+    font-size: 170%;
+}
+
 
 section {
     padding: 2px 20px;
@@ -57,32 +98,23 @@ section {
 }
 
 
+/* Index page styles*/
 
-li {
-    list-style: none;
-}
-
-/*nutrition.html*/
+/* Nutrition styling */
 #image-macronutrients {
     height: 18em;
     width: 100%;
     margin-bottom: 30px;
 }
 
-div .col-sm-6,
-.col-lg-12 {
-    padding: 0;
-}
-
-div,
-iframe,
-img {
-    border-radius: 15px;
-}
-
 .juice-images {
     height: 8em;
     margin-bottom: 8px;
+}
+
+/* juice ingredients list*/
+li {
+    list-style: none;
 }
 
 #minerals-row {
@@ -98,8 +130,7 @@ caption {
     padding-bottom: 12px;
 }
 
-/* gym.hyml*/
-
+/* Classes Styling */
 #bookings {
     width: 130px;
     height: 45px;
@@ -120,10 +151,15 @@ caption {
 
 
 
-/* media queries below */
-@media screen and (min-width: 436px) {
-    .row-one {
-        height: 20rem;
-    }
-
+#four-span {
+    color: red;
+    font-size: 30em;
 }
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .fwl-bg-color {
+        background-color: var(--bs-dark);
+    }
+ }
