@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 
 
 /* CSS Variables */
 :root {
-    --primary-font: "Montserrat", sans-serif;
-    --secondary-font: "Macondo", cursive;
-    --primary-color: rgba(48, 186, 255, 0.967);
     --bs-dark: #212529;
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Outfit", serif;
+    --primary-color: red;
+    --secondary-color: rgba(129, 148, 108, 0.854);
+    --highlight-color: rgba(144, 236, 39, 0.775);
+    /*
+     --secondary-color: rgba(67, 111, 16, 0.793), rgba(65, 109, 14, 0.854);;
+    */
 }
 
 html {
@@ -21,42 +23,44 @@ body {
     padding: 0;
     border: 0;
     font-family: var(--primary-font);
-   
+
 }
 
 .white-space {
-margin-bottom: 9rem;
+    margin-bottom: 9rem;
 }
 
-div,
-iframe,
-img {
-    border-radius: 8px;
-}
 
 .fwl-bg-color {
-background-color: var(--bs-dark);
+    background-color: var(--bs-dark);
 }
+#fwl-primary {
+   background-color: var(--primary-color);  
+}
+#fwl-secondary {
+    background-color: var(--secondary-color);  
+ }
 
-/* Navbar styling*/
+ /* Index Styling*/
+/* Navbar */
 a.nav-link {
     color: white;
-    font-size: 130%; 
+    font-size: 130%;
     font-style: var(--primary-font);
 }
 
 a.nav-link:hover {
-  color: rgb(237, 229, 229);
+    color: var(--highlight-color);
 }
 
 .active {
-    color: red !important;  
+    color: red !important;
     padding: 0;
 
 }
 
 .active:hover {
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .navbar-brand img {
@@ -65,21 +69,32 @@ a.nav-link:hover {
 
 }
 
+.card-hover:hover {
+    border-color: var(--highlight-color);
+    font-size: large;
+}
+
+
+
+
+
+
 
 /* Footbar styling */
 
 #footer-heading {
-color: white;
-padding: 4px;
+    color: white;
+    padding: 4px;
 }
 
 i {
     color: white;
-    font-size: 150%; 
+    font-size: 140%;
+    font-style: bold;
 }
 
 i:hover {
-    color: red;
+    color: var(--primary-color);
     font-size: 170%;
 }
 
@@ -130,6 +145,10 @@ caption {
     padding-bottom: 12px;
 }
 
+#fwl-primary {
+    background-color: var(--primary-color);
+
+}
 /* Classes Styling */
 #bookings {
     width: 130px;
@@ -157,9 +176,16 @@ caption {
 }
 
 
+/* Booking-form Styling */
+#text-area-span {
+    font-size: smaller;
+}
+
+
+
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .fwl-bg-color {
         background-color: var(--bs-dark);
     }
- }
+}
