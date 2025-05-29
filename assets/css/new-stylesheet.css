@@ -7,8 +7,9 @@
     --primary-font: "Montserrat", sans-serif;
     --secondary-font: "Outfit", serif;
     --primary-color: red;
-    --secondary-color: rgba(66, 102, 124, 0.746);
-    --highlight-color: rgba(129, 148, 108, 0.854);
+    --secondary-color: rgba(221, 137, 203, 0.681);
+    --highlight-color: rgba(148, 194, 100, 0.854);
+    --booking-button-color: rgba(52, 92, 10, 0.739);
     /*
      --secondary-color: rgba(67, 111, 16, 0.793), rgba(65, 109, 14, 0.854), rgba(129, 148, 108, 0.854);;
     */
@@ -26,8 +27,6 @@ body {
 
 }
 
-
-
 h1,
 h2,
 h3
@@ -35,11 +34,9 @@ h3
     padding: 0.5em 0;
 }
 
-
 .white-space {
     margin-bottom: 9rem;
 }
-
 
 .fwl-bg-color {
     background-color: var(--bs-dark);
@@ -83,16 +80,31 @@ a.nav-link:hover {
 
 /* Events */
 #events-header {
-    color: rgba(129, 148, 108, 0.854);
+    color: var(--secondary-color);
     font-size: 50px;
     font-family: "Pacifico";
 }
 
 .card-hover:hover {
-    border-color: var(--highlight-color);
-    
+    border-color: var(--highlight-color);   
 }
 
+#events-button {
+  background-color: var(--booking-button-color);
+  border-radius: 5px;  
+  border-style: 1px solid var(--secondary-color);
+  color: white;
+  height: 40px;
+  width: 80px;
+}
+
+#events-button:hover {
+    background-color: var(--highlight-color);
+    border-radius: 5px;  
+    height: 40px;
+    width: 80px;
+    color: black;
+  }
 
 /* Footbar styling */
 
@@ -164,7 +176,7 @@ caption {
 
 }
 /* Classes Styling */
-#bookings {
+#bookings-button {
     width: 130px;
     height: 45px;
     background-color: red;
