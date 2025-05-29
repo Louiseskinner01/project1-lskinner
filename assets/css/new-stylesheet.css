@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* CSS Variables */
 :root {
@@ -7,10 +7,10 @@
     --primary-font: "Montserrat", sans-serif;
     --secondary-font: "Outfit", serif;
     --primary-color: red;
-    --secondary-color: rgba(129, 148, 108, 0.854);
-    --highlight-color: rgba(144, 236, 39, 0.775);
+    --secondary-color: rgba(66, 102, 124, 0.746);
+    --highlight-color: rgba(129, 148, 108, 0.854);
     /*
-     --secondary-color: rgba(67, 111, 16, 0.793), rgba(65, 109, 14, 0.854);;
+     --secondary-color: rgba(67, 111, 16, 0.793), rgba(65, 109, 14, 0.854), rgba(129, 148, 108, 0.854);;
     */
 }
 
@@ -26,6 +26,16 @@ body {
 
 }
 
+
+
+h1,
+h2,
+h3
+{
+    padding: 0.5em 0;
+}
+
+
 .white-space {
     margin-bottom: 9rem;
 }
@@ -39,6 +49,9 @@ body {
 }
 #fwl-secondary {
     background-color: var(--secondary-color);  
+ }
+ #fwl-highlight {
+    background-color: var(--highlight-color);  
  }
 
  /* Index Styling*/
@@ -66,36 +79,37 @@ a.nav-link:hover {
 .navbar-brand img {
     width: 150px;
     height: 100px;
+}
 
+/* Events */
+#events-header {
+    color: rgba(129, 148, 108, 0.854);
+    font-size: 50px;
+    font-family: "Pacifico";
 }
 
 .card-hover:hover {
     border-color: var(--highlight-color);
-    font-size: large;
+    
 }
-
-
-
-
-
 
 
 /* Footbar styling */
 
 #footer-heading {
     color: white;
-    padding: 4px;
+    padding: 1em 0;
 }
 
 i {
-    color: white;
-    font-size: 140%;
+    color: var(--highlight-color);
+    font-size: 160%;
     font-style: bold;
+    padding-bottom: 1em;
 }
 
 i:hover {
     color: var(--primary-color);
-    font-size: 170%;
 }
 
 
