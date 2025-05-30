@@ -31,7 +31,10 @@ h1,
 h2,
 h3
 {
-    padding: 0.5em 0;
+    padding: 5px 0;
+}
+h1 {
+    font-family: var(--primary-font);
 }
 
 .white-space {
@@ -79,11 +82,14 @@ a.nav-link:hover {
 }
 
 /* Events */
-#events-header {
+
+
+#journey-header, #juices-header, #events-header, #classes-header {
     color: var(--secondary-color);
     font-size: 50px;
     font-family: "Pacifico";
 }
+
 
 .card-hover:hover {
     border-color: var(--highlight-color);   
@@ -176,38 +182,53 @@ caption {
 
 }
 /* Classes Styling */
-#bookings-button {
-    width: 130px;
-    height: 45px;
-    background-color: red;
+
+
+#pt-button {
+    background-color: var(--primary-color);
+    border-radius: 5px;  
+
+    color: white;
+    height: 60px;
+    width: 160px;
+    text-align: center;
     position: fixed;
-    border-radius: 5px;
     right: 0;
-    margin-right: 4px;
-
+    margin-right: 0.5em;
+}
+#pt-button:hover {
+    background-color: var(--highlight-color);
 }
 
-#bookings a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: smaller;
-}
+#bookings-button {
+    background-color: var(--booking-button-color);
+    border-radius: 5px;  
+    border-style: 1px solid var(--secondary-color);
+    color: white;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+  }
+  
+  #bookings-button:hover {
+      background-color: var(--highlight-color);
+      border-radius: 5px;  
+      height: 40px;
+      width: 80px;
+      color: black;
+    }
 
-
-
-#four-span {
-    color: red;
-    font-size: 30em;
-}
-
-
-/* Booking-form Styling */
+    /* Booking-form Styling */
 #text-area-span {
     font-size: smaller;
 }
 
 
+/* 404 */
+#four-span {
+    color: red;
+    font-size: 30em;
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
