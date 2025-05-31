@@ -4,12 +4,14 @@
 /* CSS Variables */
 :root {
     --bs-dark: #212529;
+    --header-font: "Pacifico", cursive;
     --primary-font: "Montserrat", sans-serif;
     --secondary-font: "Outfit", serif;
     --primary-color: red;
     --secondary-color: rgba(221, 137, 203, 0.681);
     --highlight-color: rgba(148, 194, 100, 0.854);
     --booking-button-color: rgba(52, 92, 10, 0.739);
+    
     /*
      --secondary-color: rgba(67, 111, 16, 0.793), rgba(65, 109, 14, 0.854), rgba(129, 148, 108, 0.854);;
     */
@@ -24,7 +26,6 @@ body {
     padding: 0;
     border: 0;
     font-family: var(--primary-font);
-
 }
 
 h1,
@@ -36,6 +37,8 @@ h3
 h1 {
     font-family: var(--primary-font);
 }
+
+
 
 .white-space {
     margin-bottom: 9rem;
@@ -82,12 +85,10 @@ a.nav-link:hover {
 }
 
 /* Events */
-
-
-#journey-header, #juices-header, #events-header, #classes-header {
+#journey-header, #juices-header, #events-header, #classes-header, #macro-header {
     color: var(--secondary-color);
+    font-family: var( --header-font);
     font-size: 50px;
-    font-family: "Pacifico";
 }
 
 
@@ -96,21 +97,28 @@ a.nav-link:hover {
 }
 
 #events-button {
-  background-color: var(--booking-button-color);
-  border-radius: 5px;  
+  background-color: var(--booking-button-color); 
   border-style: 1px solid var(--secondary-color);
+  border-radius: 5px;
   color: white;
   height: 40px;
-  width: 80px;
+  width: 90px;
+  display: flex;  
+  padding-top: 8px;
+  padding-left: 1em;
+
 }
 
 #events-button:hover {
-    background-color: var(--highlight-color);
-    border-radius: 5px;  
-    height: 40px;
-    width: 80px;
+    background-color: var(--highlight-color); 
     color: black;
   }
+
+  .card-footer a {
+    text-decoration: none;
+    display: flex;
+    justify-self: right;
+}
 
 /* Footbar styling */
 
