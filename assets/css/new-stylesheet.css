@@ -38,7 +38,9 @@ h1 {
     font-family: var(--primary-font);
 }
 
-
+li {
+    list-style-type: none;
+}
 
 .white-space {
     margin-bottom: 9rem;
@@ -72,7 +74,6 @@ a.nav-link:hover {
 .active {
     color: red !important;
     padding: 0;
-
 }
 
 .active:hover {
@@ -85,10 +86,11 @@ a.nav-link:hover {
 }
 
 /* Events */
-#journey-header, #juices-header, #events-header, #classes-header, #macro-header {
+#journey-header, #juices-header, #events-header, #classes-header, #nutrition-header {
     color: var(--secondary-color);
     font-family: var( --header-font);
     font-size: 50px;
+    padding: 10px 5px 0 5px;
 }
 
 
@@ -162,16 +164,6 @@ section {
     margin-bottom: 30px;
 }
 
-.juice-images {
-    height: 8em;
-    margin-bottom: 8px;
-}
-
-/* juice ingredients list*/
-li {
-    list-style: none;
-}
-
 #minerals-row {
     margin-bottom: 30px;
 }
@@ -185,17 +177,10 @@ caption {
     padding-bottom: 12px;
 }
 
-#fwl-primary {
-    background-color: var(--primary-color);
-
-}
 /* Classes Styling */
-
-
 #pt-button {
     background-color: var(--primary-color);
     border-radius: 5px;  
-
     color: white;
     height: 60px;
     width: 160px;
