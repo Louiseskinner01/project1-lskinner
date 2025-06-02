@@ -34,8 +34,12 @@ h3
 {
     padding: 5px 0;
 }
-h1 {
+h1, h2 {
     font-family: var(--primary-font);
+}
+
+h6, h3{
+    font-family: var(--secondary-font);
 }
 
 li {
@@ -50,15 +54,32 @@ li {
     background-color: var(--bs-dark);
 }
 #fwl-primary {
-   background-color: var(--primary-color);  
+   background-color: var(--primary-color); 
+   color: whitesmoke;
 }
 #fwl-secondary {
     background-color: var(--secondary-color);  
  }
  #fwl-highlight {
+    color: var(--bs-dark);
     background-color: var(--highlight-color);  
  }
+ #fwl-booking {
+    color: var(--booking-button-color);
+ }
 
+div .carousel-item ul,  div .carousel-item  h6{
+    color: black;
+    font-family: var(--primary-font);
+    font-size: 120%;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+div .carousel-item  h6 {
+    padding-top: 12px;
+    font-size: 150%;
+}
  /* Index Styling*/
 /* Navbar */
 a.nav-link {
@@ -86,7 +107,7 @@ a.nav-link:hover {
 }
 
 /* Events */
-#journey-header, #juices-header, #events-header, #classes-header, #nutrition-header {
+#journey-header, #juices-header, #events-header, #classes-header, #nutrition-header, #tips-header{
     color: var(--secondary-color);
     font-family: var( --header-font);
     font-size: 50px;
