@@ -1,3 +1,4 @@
+/* Google font imported to apply the following fonts: montserrat, Outfit and Pacifico*/
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
@@ -11,10 +12,6 @@
     --secondary-color: rgba(221, 137, 203, 0.681);
     --highlight-color: rgba(148, 194, 100, 0.854);
     --booking-button-color: rgba(52, 92, 10, 0.739);
-    
-    /*
-     --secondary-color: rgba(67, 111, 16, 0.793), rgba(65, 109, 14, 0.854), rgba(129, 148, 108, 0.854);;
-    */
 }
 
 html {
@@ -34,6 +31,7 @@ h3
 {
     padding: 5px 0;
 }
+
 h1, h2 {
     font-family: var(--primary-font);
 }
@@ -41,6 +39,14 @@ h1, h2 {
 h6, h3{
     font-family: var(--secondary-font);
 }
+
+iframe {
+    width: 100%
+ } 
+
+image {
+    width: 100%
+ }
 
 li {
     list-style-type: none;
@@ -53,18 +59,22 @@ li {
 .fwl-bg-color {
     background-color: var(--bs-dark);
 }
-#fwl-primary {
+
+.fwl-primary {
    background-color: var(--primary-color); 
    color: whitesmoke;
 }
-#fwl-secondary {
+
+.fwl-secondary {
     background-color: var(--secondary-color);  
  }
- #fwl-highlight {
+
+.fwl-highlight {
     color: var(--bs-dark);
     background-color: var(--highlight-color);  
  }
- #fwl-booking {
+
+.fwl-booking {
     color: var(--booking-button-color);
  }
 
@@ -80,6 +90,12 @@ div .carousel-item  h6 {
     padding-top: 12px;
     font-size: 150%;
 }
+
+carousel {
+    display: flex;
+    justify-content: center;
+}
+
  /* Index Styling*/
 /* Navbar */
 a.nav-link {
@@ -93,7 +109,7 @@ a.nav-link:hover {
 }
 
 .active {
-    color: red !important;
+    color: var(--primary-color)!important;
     padding: 0;
 }
 
@@ -114,14 +130,12 @@ a.nav-link:hover {
     padding: 10px 5px 0 5px;
 }
 
-
 .card-hover:hover {
     border-color: var(--highlight-color);   
 }
 
-#events-button {
+.card-footer a {
   background-color: var(--booking-button-color); 
-  border-style: 1px solid var(--secondary-color);
   border-radius: 5px;
   color: white;
   height: 40px;
@@ -130,19 +144,16 @@ a.nav-link:hover {
   padding-top: 8px;
   padding-left: 1em;
   margin: 1px;
-
+  text-decoration: none;
+  display: flex;
+  justify-self: right;
 }
 
-#events-button:hover {
+.card-footer a:hover {
     background-color: var(--highlight-color); 
     color: black;
   }
 
-  .card-footer a {
-    text-decoration: none;
-    display: flex;
-    justify-self: right;
-}
 
 /* Footbar styling */
 
@@ -154,7 +165,6 @@ a.nav-link:hover {
 i {
     color: var(--highlight-color);
     font-size: 160%;
-    font-style: bold;
     padding-bottom: 1em;
 }
 
@@ -177,8 +187,6 @@ section {
 }
 
 
-/* Index page styles*/
-
 /* Nutrition styling */
 #image-macronutrients {
     height: 18em;
@@ -199,6 +207,8 @@ caption {
     padding-bottom: 12px;
 }
 
+
+
 /* Classes Styling */
 #pt-button {
     background-color: var(--primary-color);
@@ -215,29 +225,58 @@ caption {
     background-color: var(--highlight-color);
 }
 
-#bookings-button {
-    background-color: var(--booking-button-color);
-    border-radius: 5px;  
-    border-style: 1px solid var(--secondary-color);
-    color: white;
-    height: 40px;
-    width: 80px;
-    text-align: center;
-  }
-  
-  #bookings-button:hover {
-      background-color: var(--highlight-color);
-      border-radius: 5px;  
-      height: 40px;
-      width: 80px;
-      color: black;
-    }
+.dropdown .strength {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+}
+.dropdown .conditioning {
+    background-color: var(--secondary-color);
+}
+.dropdown .stretch {
+    background-color: var(--highlight-color);
+}
+
+
 
     /* Booking-form Styling */
 #text-area-span {
     font-size: smaller;
 }
+#bookings-button {
+    background-color: var(--booking-button-color);
+    border-radius: 5px;  
+    color: white;
+    height: 60px;
+    width: 160px;   
+    text-decoration: none;
+    padding-top: 5px;
+}
 
+/* Confirmation page styling*/
+#confirmation-header {
+font-family: var(--secondary-font);
+color: var(--highlight-color);
+}
+
+#confirmation-page-btn{
+    background-color: var(--booking-button-color);
+    border-radius: 5px;  
+    color: white;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin: 10% auto;
+    padding-top: 5px;
+  }
+  
+#confirmation-page-btn:hover {
+      background-color: var(--highlight-color);
+      border-radius: 5px;  
+      color: black;
+      border-color: black;
+    }
 
 /* 404 */
 #four-span {
