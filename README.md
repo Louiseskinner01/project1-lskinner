@@ -8,7 +8,7 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 - Home page: Presents the user with motivational and encouraging content, as well as a list of up coming events that the user can register for.
 - Classes page: Presents the user with a carousel of fitness videos. The user can also choose from a range a fitness programs and utilise the tips and techniques listed.
 - Contact page: Presents the user with a booking form that ensures the users input is validated before it can be submitted (ficticiusly), using the submit button.
-- Nutrition oage: Offers the user nutriional advice and a carousel of Juice ingredients.
+- Nutrition page: Offers the user nutriional advice and a carousel of Juice ingredients.
 
 
 ## Table Of Contents
@@ -56,9 +56,10 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 ### Colour-scheme
 To make the brand stand out I used the branding colours as the base colour theme for the design, this was a simple red, black and white. To make the design pop I added two additonal greens and a pink that would be assigned to a specific typography.  
 
-- Primary Colour – Red: This acts as an active colour.
-- Secondary Colour – Dusky Pink rgba(221, 137, 203, 0.681): This is used on conjunction with the variable "Header font" (Pacifico). It is used to draw attention to things like events, online classes and juicing ingredients.
-
+- Primary colour – Red: This acts as an active colour and also acts as a highlight colour for the footbar icons.
+- Secondary colour - Dusky Pink rgba(221, 137, 203, 0.681): This is used on conjunction with the variable "Header font" (Pacifico). It is used to draw attention to things like events, online classes and juicing ingredients.
+- Highlight colour: This has been applied to the navigation bar to highlight when the user is hovering over a tab. It has also been used as the base colour for the footerbar prior to them being hovered over.
+- Booking-button colour: This colour has been applied to all buttons throughout the website.
 
 
 
