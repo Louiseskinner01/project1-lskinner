@@ -13,28 +13,25 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 
 ## Table Of Contents
 
-1. [Design & Planning](#design--planning)
-   - [Objectives](#objectives)
-   - [User Stories](#user-stories)
+1. [Design & Planning](#design)
+   - [User Story](#user-story)
    - [Wireframes](#wireframes)
    - [Colour Scheme](#colour-scheme)
    - [Typography](#typography)
-
 2. [Features](#features)
-   - [Navigation](#navigation---customised-boostrap-navbar)
-   - [Footer](#footer---customised-bootstrap-layout-with-interactive-links)
-   - [Other features](#other-features)
-
-3. [Technologies Used](#technologies)
+   - [Navigation](#navigation)
+   - [Footer](#footbar)
+   - [Video Carousel](#carousel)
+   - [Dropdown Menus](#dropdowns)
+3. [Technologies Utilised](#technologies)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
-6. [Stretch Goals](#stretch-goals)
-7. [Future Enhancements](#future-enhancements)
 8. [Referencing & Credits](#referencing)
 
 ## Design
-### Colour Scheme
-## Wireframes
+### User-story
+
+### Wireframes
 <details>
  <summary>Home</summary>
   World!
@@ -56,14 +53,30 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
   Error
 </details>
 
+### Colour-scheme
+To make the brand stand out I used the branding colours as the base colour theme for the design, this was a simple red, black and white. To make the design pop I added two additonal greens and a pink that would be assigned to a specific typography.  
+
+- Primary Colour – Red: This acts as an active colour.
+- Secondary Colour – Dusky Pink rgba(221, 137, 203, 0.681): This is used on conjunction with the variable "Header font" (Pacifico). It is used to draw attention to things like events, online classes and juicing ingredients.
 
 
+
+
+
+### Typography
+
+
+## Features
+### Navigation
+### Footbar
+### Carousel
+### Dropdowns 
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
 
 ## Deployment
-To deploy the FWL website I used Github Pages.
+To deploy the FWL website I used the Github-pages feature, this generates a link that can be shared so people can view the website with only the use of only a device and an internet connection. To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment where the webiste would be coded and any changes would be commited to the Github repository.
 ## Referencing
 
 ## Technologise
