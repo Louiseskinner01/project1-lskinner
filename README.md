@@ -61,7 +61,7 @@ To make the brand stand out I used the branding colours as the base colour theme
 - Highlight colour: This has been applied to the navigation bar to highlight when the user is hovering over a tab. It has also been used as the base colour for the footerbar prior to them being hovered over.
 - Booking-button colour: This colour has been applied to all buttons throughout the website.
 
-
+<img width="600" alt="colour-scheme" src="https://github.com/user-attachments/assets/be362d88-4f7f-4129-801a-e79afeef3a5a" />
 
 
 ### Typography
