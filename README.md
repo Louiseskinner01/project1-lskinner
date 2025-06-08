@@ -17,21 +17,23 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
    - [Objectives](#objectives)
    - [User Stories](#user-stories)
    - [Wireframes](#wireframes)
-   - [Typography](#typography)
    - [Colour Scheme](#colour-scheme)
-2. [Features](#features)
+   - [Typography](#typography)
 
+2. [Features](#features)
    - [Navigation](#navigation---customised-boostrap-navbar)
    - [Footer](#footer---customised-bootstrap-layout-with-interactive-links)
    - [Other features](#other-features)
 
-3. [Technologies Used](#technologies-used)
+3. [Technologies Used](#technologies)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
 6. [Stretch Goals](#stretch-goals)
 7. [Future Enhancements](#future-enhancements)
-8. [Credits](#credits)
+8. [Referencing & Credits](#referencing)
 
+## Design
+### Colour Scheme
 ## Wireframes
 <details>
  <summary>Home</summary>
@@ -49,11 +51,22 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
   <summary>Bookings</summary>
   World!
 </details>
+<details>
+  <summary>404</summary>
+  Error
+</details>
+
 
 
 ## Testing
-
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
 
-## References/Sitings
+## Deployment
+To deploy the FWL website I used Github Pages.
+## Referencing
+
+## Technologise
+### Design
+
+### Testing
