@@ -14,7 +14,7 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 ## Table Of Contents
 
 1. [Design & Planning](#design)
-   - [User Story](#user-story)
+   - [User Stories](#user-stories)
    - [Wireframes](#wireframes)
    - [Colour Scheme](#colour-scheme)
    - [Typography](#typography)
@@ -29,7 +29,7 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 8. [Referencing & Credits](#referencing)
 
 ## Design
-### User-story
+### User-stories
 
 ### Wireframes
 <details>
@@ -61,17 +61,58 @@ To make the brand stand out I used the branding colours as the base colour theme
 - Highlight colour: This has been applied to the navigation bar to highlight when the user is hovering over a tab. It has also been used as the base colour for the footerbar prior to them being hovered over.
 - Booking-button colour: This colour has been applied to all buttons throughout the website.
 
-<img width="600" alt="colour-scheme" src="https://github.com/user-attachments/assets/be362d88-4f7f-4129-801a-e79afeef3a5a" />
+- Navigation bar font: Base = White, Active = --primary-color (red), Highlight = --highlight-color (green).
+
+<img width="600" alt="colour-scheme" src="https://github.com/user-attachments/assets/be362d88-4f7f-4129-801a-e79afeef3a5a"/>
 
 
 ### Typography
 
+<img width="600" alt="typography" src="https://github.com/user-attachments/assets/a9b32530-5b1f-4e8c-ad53-02d2a76296a6"/>
 
 ## Features
 ### Navigation
+The FWL website has a responsive navigation bar that utilises Boostrap 5 components. It has been customised to using the branding colours of FWL (which are Red, Black & White) to ensure the branding logo pops. The navbar has a simplistic approach, leaning into a clean and modernised look. The FWL company logo links to the bookings form where users can fill in their details and select from a list of reasons for contact. The booking form also features a text-box where the user can write additional information to be acompany the form.
+Due to the naviation bar being deveoped using a "mobile first" approach, there is a toggle feature when the user is browsing from a mobile devise, this enables the user a better experience as the can easily naviagte through the tabs. The toggle feature can be identified by the "burger-icon" (another bootstrap component) used to enhance the users experience.
+Another feature the navigation bar has is the data-bs-theme="dark" to enable a better user experience when browsing in nightmode. 
+#### Other features
+- Features a hover effect where the nav link chnages colour from it's base white to a green (highlight color). If the nav link is in an "active" state then the link will remain red (primary colour) and the font weight will become bold.
+
+<details>
+ <summary>Navbar Mobile</summary>
+ <img width="515" alt="navbar-collaps" src="https://github.com/user-attachments/assets/699c6e68-50dd-4b5b-a76d-21e4e09bbe54" />
+</details>
+<details>
+  <summary>Navbar Expand</summary>
+<img width="1150" alt="navbar-expand" src="https://github.com/user-attachments/assets/fa56a72f-c265-49e4-be3a-c297fe2e236b"/>
+</details>
+
+
+
+
 ### Footbar
+The footbar is very clean and simple, containing only 1 heading and 3 icons. Each icon has been customised to be slightly larger than their original aspect and a different colour. They are coloured green (highlight colour) and when hovered upon they turn red (primary colour), this highlights the interactiveness the user experiences and brings life to the footbar bar.
+ To enhance the users experience I have also applied the targe="_blank" attribute so when the user clicks on the icon they are taken to an external page and won't be lose their current page on the FWL website.
+<details>
+<Summary>Footbar</summary>
+<img width="963" alt="footer" src="https://github.com/user-attachments/assets/bbbe307f-4f04-4d1c-a6f5-4a4fe1f6ce80" />
+</details>
+<details>
+<Summary>Footbar Hover</summary>
+<img width="817" alt="footbar-hover" src="https://github.com/user-attachments/assets/3cf6cd26-03b5-4396-a144-fa9de36c28bb" />
+</details>
+
+
 ### Carousel
+FWL wanted to provide free online classes for the website visitors to help promote health and wellbeing and grow a fitness community. To maintain a minimal look across the site I decided to implement a video carousel for website users to easily browse the online classes.
+This appaoch is based on utilising iframe tags over video tags because it saves space in the developers assets folder and is faster to load in the browser.
+<img width="880" alt="carousel-1" src="https://github.com/user-attachments/assets/a018cc08-664e-445b-a09a-c90a9637ef25" />
+
+<img width="878" alt="carousel-2" src="https://github.com/user-attachments/assets/2d7a1591-ecdd-4ce8-9359-b7352f722686" />
+
 ### Dropdowns 
+
+
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
@@ -80,7 +121,7 @@ The FWL website has been put through a serious of vigourus testing methods to en
 To deploy the FWL website I used the Github-pages feature, this generates a link that can be shared so people can view the website with only the use of only a device and an internet connection. To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment where the webiste would be coded and any changes would be commited to the Github repository.
 ## Referencing
 
-## Technologise
+## Technologies
 ### Design
 
 ### Testing
