@@ -68,17 +68,16 @@ To make the brand stand out I used the branding colours as the base colour theme
 
 
 ### Typography
-For the development of this project I have chosen to utilise Google fonts as they provide font styles that meet the design requirements for accessibility and user-experience. I imported the following fonts into my css stylesheet;
-- Pacifico 
-- Monserrat
-- Outift 
-Each othe above fonts have been stored on a variable and have a back-up font incase the browser doesn't support the gogole font. The back-up fonts I have chosen are;
-- Cursive
-- Sans-serif 
-- Serif
+For the development of this project I have chosen to utilise Google fonts as they provide font styles that meet the design requirements for accessibility and user-experience. I imported the following fonts into my css stylesheet, each font having a a back-up font incase the browser doesn't support the gogole font. 
+- "Pacifico",  Cursive;
+- "Monserrat", Sans-serif; 
+- "Outift", Serif;
 
 <img width="600" alt="typography" src="https://github.com/user-attachments/assets/a9b32530-5b1f-4e8c-ad53-02d2a76296a6"/>
 
+- I have assigned Monseratte to be my primary font which is the main font for the body.
+- Pacifico has been used for special headings to draw attention to partocular peices of content.
+- Outfit has been assigned as a secondary font for all other content.
 ## Features
 ### Navigation
 The FWL website has a responsive navigation bar that utilises Boostrap 5 components. It has been customised to using the branding colours of FWL (which are Red, Black & White) to ensure the branding logo pops. The navbar has a simplistic approach, leaning into a clean and modernised look. The FWL company logo links to the bookings form where users can fill in their details and select from a list of reasons for contact. The booking form also features a text-box where the user can write additional information to be acompany the form.
@@ -117,6 +116,14 @@ This appaoch is based on utilising iframe tags over video tags because it saves 
 <img width="878" alt="carousel-2" src="https://github.com/user-attachments/assets/2d7a1591-ecdd-4ce8-9359-b7352f722686" />
 
 ### Dropdowns 
+FWL provide free fitness programs and wanted this to be something that looked clean and was a simple procress for the web user. I decided to use a series of dropdown menus, setting the menu-item to an auto hight so content was presented nicely and didn't take up too much space.
+The dropdown menus are segregated into 3 blocks, each reflecting a different type of training, these are;
+- Strength
+- Conditioning
+- Stretch & Mobility
+
+<img width="1029" alt="dropdown1" src="https://github.com/user-attachments/assets/f128a28f-f73d-4975-8414-65a0f37a67ed" />
+<img width="912" alt="dropdown2" src="https://github.com/user-attachments/assets/44f2bcc0-f836-446d-a1b5-b78752efd6c2" />
 
 
 ## Testing

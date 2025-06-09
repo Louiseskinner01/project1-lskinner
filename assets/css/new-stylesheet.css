@@ -19,6 +19,7 @@ html {
 }
 
 body {
+
     margin: 0;
     padding: 0;
     border: 0;
@@ -236,6 +237,16 @@ caption {
     background-color: var(--highlight-color);
 }
 
+.dropdown-menu {
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+.dropdown span {
+padding: 5px;
+font-family: var(--secondary-font);
+}
 
 
     /* Booking-form Styling */
