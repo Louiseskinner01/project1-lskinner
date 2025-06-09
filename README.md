@@ -34,7 +34,8 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 ### Wireframes
 <details>
  <summary>Home</summary>
-  World!
+ <img width="350" alt="wireframe-index-lg" src="https://github.com/user-attachments/assets/ca60df66-2cc4-4aba-8c30-78f4323474a3" />
+
 </details>
 <details>
   <summary>Classes</summary>
@@ -67,6 +68,14 @@ To make the brand stand out I used the branding colours as the base colour theme
 
 
 ### Typography
+For the development of this project I have chosen to utilise Google fonts as they provide font styles that meet the design requirements for accessibility and user-experience. I imported the following fonts into my css stylesheet;
+- Pacifico 
+- Monserrat
+- Outift 
+Each othe above fonts have been stored on a variable and have a back-up font incase the browser doesn't support the gogole font. The back-up fonts I have chosen are;
+- Cursive
+- Sans-serif 
+- Serif
 
 <img width="600" alt="typography" src="https://github.com/user-attachments/assets/a9b32530-5b1f-4e8c-ad53-02d2a76296a6"/>
 
@@ -86,9 +95,6 @@ Another feature the navigation bar has is the data-bs-theme="dark" to enable a b
   <summary>Navbar Expand</summary>
 <img width="1150" alt="navbar-expand" src="https://github.com/user-attachments/assets/fa56a72f-c265-49e4-be3a-c297fe2e236b"/>
 </details>
-
-
-
 
 ### Footbar
 The footbar is very clean and simple, containing only 1 heading and 3 icons. Each icon has been customised to be slightly larger than their original aspect and a different colour. They are coloured green (highlight colour) and when hovered upon they turn red (primary colour), this highlights the interactiveness the user experiences and brings life to the footbar bar.
