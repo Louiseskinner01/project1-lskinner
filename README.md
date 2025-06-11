@@ -137,9 +137,6 @@ The dropdown menus are segregated into 3 blocks, each reflecting a different typ
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
 
-## Deployment
-To deploy the FWL website I used the Github-pages feature, this generates a link that can be shared so people can view the website with only the use of only a device and an internet connection. To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment where the webiste would be coded and any changes would be commited to the Github repository.
-
 ## Technologies
 ### Languages
 - HTML
@@ -191,12 +188,20 @@ The screenshots below show some of the errors I had and confirm that the code is
 - **TinyPNG:** I utilised TinyPNG to make my image sizes smaller as they were too large and causing the FWL webpages to laod at a slow pace, this in turn was causing my Lighthouse testing result to be poor.
 - **Favcon Converter:** I used an online converter to make the FWL company logo into a favcon so the logo would be visible in the browser tab.
 - **MS Word:** I used Microsoft Word for proof reading written content.
-
-
-
+## Deployment
+To deploy the FWL website I used the Github-pages feature, this generates a link that can be shared so people can view the website with only the use of only a device and an internet connection. To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment where the webiste would be coded and any changes would be commited to the Github repository.
+## Stretch Goals
+### For the site
+Responsive Design Enhancements – Optimize the site for tablets and large displays (beyond mobile responsiveness).
+Accessibility Improvements – Implement ARIA roles and improve keyboard navigation.
+### For the user
+- As a visitor, I want to read client testimonials so that I can trust the effectiveness of the fitness plans.
+- As a visitor, I want to view trainer profiles so that I can choose a trainer who matches my goals.
+- As a visitor, I want to create an account or log in so that I can access personalized features.
+- As a user, I want to log workouts and body stats so that I can track my progress over time
+- As a user, I want email or app reminders for my workouts so that I stay consistent with my routine.
 
 ## Future Enhancements 
-
 FWL wanted a simple, static website so they could share their content to the health and fitness community, and by doing so they hope to grow their online presence across all platforms (internet and social).
 Beyond this FWL would like to further expand their portfolio by offering more services and products such as branded merchandise and fitness equipment, and they would also like for their clients to be able to purchase their services and products online. This means FWL would require a dynamic website that can support payment transactions and online booking/scheduling. 
 
@@ -213,6 +218,6 @@ FWL would like their future website to allow users to do the following;
 ## Referencing
 
 - **ChatGBT:** User stories
- 
+ - **Unsplash** I used this online tool for free images of juices for the juice ingredients carousel on the Nutrition page
 
 
