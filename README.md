@@ -30,7 +30,6 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 
 ## Design
 ### User-stories
-
 ### Wireframes
 <details>
  <summary>Home</summary>
@@ -62,10 +61,8 @@ To make the brand stand out I used the branding colours as the base colour theme
 - Highlight colour: This has been applied to the navigation bar to highlight when the user is hovering over a tab. It has also been used as the base colour for the footerbar prior to them being hovered over.
 - Booking-button colour: This colour has been applied to all buttons throughout the website.
 
-- Navigation bar font: Base = White, Active = --primary-color (red), Highlight = --highlight-color (green).
-
+- Navigation font: Base = White, Active = --primary-color (red), Highlight = --highlight-color (green).
 <img width="600" alt="colour-scheme" src="https://github.com/user-attachments/assets/be362d88-4f7f-4129-801a-e79afeef3a5a"/>
-
 
 ### Typography
 For the development of this project I have chosen to utilise Google fonts as they provide font styles that meet the design requirements for accessibility and user-experience. I imported the following fonts into my css stylesheet, each font having a a back-up font incase the browser doesn't support the gogole font. 
@@ -107,7 +104,6 @@ The footbar is very clean and simple, containing only 1 heading and 3 icons. Eac
 <img width="817" alt="footbar-hover" src="https://github.com/user-attachments/assets/3cf6cd26-03b5-4396-a144-fa9de36c28bb" />
 </details>
 
-
 ### Carousel
 FWL wanted to provide free online classes for the website visitors to help promote health and wellbeing and grow a fitness community. To maintain a minimal look across the site I decided to implement a video carousel for website users to easily browse the online classes.
 This appaoch is based on utilising iframe tags over video tags because it saves space in the developers assets folder and is faster to load in the browser.
@@ -122,9 +118,8 @@ The dropdown menus are segregated into 3 blocks, each reflecting a different typ
 - Conditioning
 - Stretch & Mobility
 
-<img width="1029" alt="dropdown1" src="https://github.com/user-attachments/assets/f128a28f-f73d-4975-8414-65a0f37a67ed" />
-<img width="912" alt="dropdown2" src="https://github.com/user-attachments/assets/44f2bcc0-f836-446d-a1b5-b78752efd6c2" />
-
+<img width="1103" alt="dropdown-new1" src="https://github.com/user-attachments/assets/6b3125bd-d18f-4479-8002-7918653d9ff4" />
+<img width="1078" alt="dropdown-new2" src="https://github.com/user-attachments/assets/16949a5a-5e4c-4c4d-a73b-b712160808f2" />
 
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
@@ -135,6 +130,33 @@ To deploy the FWL website I used the Github-pages feature, this generates a link
 ## Referencing
 
 ## Technologies
-### Design
+### Languages
+- HTML
+- CSS
+### Frameworks
+- Bootstrap: I utilised Bootstrap version so I could develop the FWL website to be responsive, accessible and inline with web developement trends. Boostrap offers a range of components to allow for an faster development and a modern result.
 
-### Testing
+### Tools
+#### Development Tools
+
+- GitHub: Used for version control, tracking changes, and hosting the project repository. Project Board – Used for project management with a To Do, In Progress, and Done Kanban board. An additional Stretch Goals column was added to park "Could Have" features for future consideration. This structure was guided by the Minimum Viable Product (MVP) approach learned in Code Institute, ensuring the core website was strong without being sidetracked by non-essential features.
+- Visual Studio Code:  The primary code editor for developing the site.
+- Chrome Developer Tools: Used for debugging, inspecting elements, and testing responsive design in real time.
+
+
+#### Design & UI
+Balsamiq Wireframes – Used for planning and sketching the website layout.
+Google Fonts – Used to enhance the site's typography with custom fonts.
+Font Awesome – Provides scalable icons used for social media links and other design elements.
+Favicon Generator – An online tool used to create and implement a custom favicon for the site.
+
+#### Testing & Validation
+W3C Validator: I used this online tool to validate my CSS and HTML code. It's a great tool as it higghlighted many issues I had in my code and I was able to make amendments to ensure all my code clean and valid. 
+The screenshots below show some of the errors I had and confirm that the code is validated.
+
+
+
+
+
+
+
