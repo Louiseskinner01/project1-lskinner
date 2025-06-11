@@ -238,7 +238,7 @@ caption {
 }
 
 .dropdown-menu {
-    width: 500px;
+    width: auto;
     height: auto;
     display: block;
 }
