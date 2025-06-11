@@ -3,14 +3,16 @@
 ## About
 FWL (Fitness with Louise) is a company offering free online fitness classes and nutritional advice through their website. Their target audience are those who want to improve their health and wellbeing and build their inner confidence. The FWL website offers a clean and simple astheitc, using the FWL company colours as a base for the deisgn theme. Visitors to the site can expect an great user experience as they can easily navigate their way through the website using internal and external links, buttons and social icons, enabling them to register their details for events, watch videos and read ingredients for healthy juices.
 
+### How to run the project
+To access free content hosted on the FWL website simply click the link below or alternatively you can copy and past https://louiseskinner01.github.io/project1-lskinner/ into your broswer.
+
 [View Live Site.](https://louiseskinner01.github.io/project1-lskinner/) Hosted on GitHub Pages.
 ## Key Features
-- Home page: Presents the user with motivational and encouraging content, as well as a list of up coming events that the user can register for.
-- Classes page: Presents the user with a carousel of fitness videos. The user can also choose from a range a fitness programs and utilise the tips and techniques listed.
-- Contact page: Presents the user with a booking form that ensures the users input is validated before it can be submitted (ficticiusly), using the submit button.
-- Nutrition page: Offers the user nutriional advice and a carousel of Juice ingredients.
-
-
+- **Home page:** Presents the user with motivational and encouraging content, it also presents a range of Bootstrap cards that host the FWL fitness events. Users can register for the event by clicking on the register button,linking them through to the contact form where they will enter their personal information.
+- **Classes page:** Presents the user with a carousel of fitness videos. The user can also choose from a range a fitness programs and utilise the tips and techniques listed.
+- **Contact page:** Presents the user with a booking form that ensures the users input is validated before it can be submitted (ficticiusly), using the submit button.
+- **Nutrition page:** Offers the user nutriional advice and a carousel of Juice ingredients.
+- **404 Error page:** FWL have apersonalised 404 error page, this will be deployed if there is an error loading a page. The 404 error page has a button that the user can click to take them back to the home page.
 ## Table Of Contents
 
 1. [Design & Planning](#design)
@@ -32,6 +34,7 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 ### User-stories
 
 - As a visitor, I want to browse available fitness programs so that I can see what the site offers before booking any personal training sessions
+- As a visitor, I want to easily undestand what services and/or produducts ar provided FWL 
 - As a user, I want to select a workout plan based on my goals (e.g. strength, flexibility) so that I can have some guidance along my fitness journy
 - As a user, I want access to meal plans and nutrition advice so that I can support my fitness goals with proper diet
 - As a visitor, I want to how the trainers teach so that I can choose a trainer who matches my goals
@@ -40,7 +43,7 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 - As a user, I would like to find health and wellbeing events 
 - As a user, I would like to have access to juicing ideas and ingredients lists
 - As a user, I would like to easily find and follow FWL on all of their social media platforms
-- As a user, I would like to be kept up to date with the latest fitness trends
+- As a user, I would like to be kept up to date with the latest health and fitness trends
 
 ### Wireframes
 <details>
@@ -92,8 +95,8 @@ For the development of this project I have chosen to utilise Google fonts as the
 The FWL website has a responsive navigation bar that utilises Boostrap 5 components. It has been customised to using the branding colours of FWL (which are Red, Black & White) to ensure the branding logo pops. The navbar has a simplistic approach, leaning into a clean and modernised look. The FWL company logo links to the bookings form where users can fill in their details and select from a list of reasons for contact. The booking form also features a text-box where the user can write additional information to be acompany the form.
 Due to the naviation bar being deveoped using a "mobile first" approach, there is a toggle feature when the user is browsing from a mobile devise, this enables the user a better experience as the can easily naviagte through the tabs. The toggle feature can be identified by the "burger-icon" (another bootstrap component) used to enhance the users experience.
 Another feature the navigation bar has is the data-bs-theme="dark" to enable a better user experience when browsing in nightmode. 
-#### Other features
-Features a hover effect where the nav link chnages colour from it's base white to a green (highlight color). If the nav link is in an "active" state then the link will remain red (primary colour) and the font weight will become bold.
+#### Other navigation features
+The navbar also features a hover changing the hobered nav link from it's base colour white to green (highlight color). If the nav link is in an "active" state then the link will remain red (primary colour) and the font weight will become bold when hovered upon.
 
 <details>
  <summary>Navbar Mobile</summary>
@@ -189,7 +192,8 @@ The screenshots below show some of the errors I had and confirm that the code is
 - **Favcon Converter:** I used an online converter to make the FWL company logo into a favcon so the logo would be visible in the browser tab.
 - **MS Word:** I used Microsoft Word for proof reading written content.
 ## Deployment
-To deploy the FWL website I used the Github-pages feature, this generates a link that can be shared so people can view the website with only the use of only a device and an internet connection. To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment where the webiste would be coded and any changes would be commited to the Github repository.
+To deploy the FWL website I used the Github-pages feature, this generates a link enabling developers to get an actual view of how the site looks live and it offers the opportunity to share their project with others such an future employers, tutors and peers.
+To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment used to code the webiste and commit any changes made throughout the deveopment of the project. Commits go directly to the Github repository, and if the site is already deployed, the changes will be visible within a short frame of time (usually a couple of minutes).
 ## Stretch Goals
 ### For the site
 Responsive Design Enhancements – Optimize the site for tablets and large displays (beyond mobile responsiveness).
@@ -217,7 +221,7 @@ FWL would like their future website to allow users to do the following;
 
 ## Referencing
 
-- **ChatGBT:** User stories
+- **ChatGBT:** Stretch Goals - User stories and some of the Main User Stories
  - **Unsplash** I used this online tool for free images of juices for the juice ingredients carousel on the Nutrition page
 
 
