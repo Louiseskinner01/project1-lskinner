@@ -30,6 +30,18 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 
 ## Design
 ### User-stories
+
+- As a visitor, I want to browse available fitness programs so that I can see what the site offers before booking any personal training sessions
+- As a user, I want to select a workout plan based on my goals (e.g. strength, flexibility) so that I can have some guidance along my fitness journy
+- As a user, I want access to meal plans and nutrition advice so that I can support my fitness goals with proper diet
+- As a visitor, I want to how the trainers teach so that I can choose a trainer who matches my goals
+- As a user, I want access to video demonstrations of exercises so that I can perform them correctly and avoid injury
+- As a user, I want to be able to register my details and have a member of FWL reach out to me
+- As a user, I would like to find health and wellbeing events 
+- As a user, I would like to have access to juicing ideas and ingredients lists
+- As a user, I would like to easily find and follow FWL on all of their social media platforms
+- As a user, I would like to be kept up to date with the latest fitness trends
+
 ### Wireframes
 <details>
  <summary>Home</summary>
@@ -127,7 +139,6 @@ The FWL website has been put through a serious of vigourus testing methods to en
 
 ## Deployment
 To deploy the FWL website I used the Github-pages feature, this generates a link that can be shared so people can view the website with only the use of only a device and an internet connection. To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment where the webiste would be coded and any changes would be commited to the Github repository.
-## Referencing
 
 ## Technologies
 ### Languages
@@ -196,7 +207,12 @@ FWL would like their future website to allow users to do the following;
 - Be able to see live updates (real time) on what merchandise and events are available (in stock) to purchase
 - Book sessions online using a real-time calendar showing the availbility of FWL and the fitness team
 - Log into an online portal where the user will have a live online personal training session
+- Track progress, body stats and upload befor and after pictures
+- Receive email/text reminders (depeding on the users preference) 
 
+## Referencing
+
+- **ChatGBT:** User stories
  
 
 
