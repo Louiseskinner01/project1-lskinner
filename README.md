@@ -169,6 +169,7 @@ The screenshots below show some of the errors I had and confirm that the code is
   <summary>Bookings</summary>
 <img width="1233" alt="bookings-valid" src="https://github.com/user-attachments/assets/ad301ac9-6f38-45fc-a8a7-6d7b02a6b4e1" />
 </details>
+<details>
 <summary>404</summary>
 <img width="1000" alt="Screenshot 2025-06-11 at 14 04 38" src="https://github.com/user-attachments/assets/582b4918-0586-439d-b32e-134751d02aaf" />
 </details>

@@ -293,7 +293,34 @@ color: var(--highlight-color);
 /* 404 */
 #four-span {
     color: red;
-    font-size: 30em;
+    font-size: 10em;
+    margin: auto auto;
+    font-family: var(--secondary-font);
+}
+#four-p {
+    font-size: 2em;
+    margin: auto;
+    font-family: var(--header-font);
+}
+
+#four-home-btn {
+    background-color: var(--booking-button-color);
+    border-radius: 5px;  
+    color: white;
+    height: 60px;
+    width: 160px;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    margin: 10% auto;
+    padding-top: 15px;
+    }
+
+#four-home-btn:hover {
+    background-color: var(--highlight-color);
+    border-radius: 5px;  
+    color: black;
+    border-color: black;
 }
 
 /* Medium devices (tablets, 768px and up)*/
