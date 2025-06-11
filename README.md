@@ -174,16 +174,29 @@ The screenshots below show some of the errors I had and confirm that the code is
 <img width="1000" alt="Screenshot 2025-06-11 at 14 04 38" src="https://github.com/user-attachments/assets/582b4918-0586-439d-b32e-134751d02aaf" />
 </details>
 
-
-
-
 #### Other tools utlised
 
 - **Notepad:** I utilised notepad to write my content and program ideas.
 - **TinyPNG:** I utilised TinyPNG to make my image sizes smaller as they were too large and causing the FWL webpages to laod at a slow pace, this in turn was causing my Lighthouse testing result to be poor.
 - **Favcon Converter:** I used an online converter to make the FWL company logo into a favcon so the logo would be visible in the browser tab.
+- **MS Word:** I used Microsoft Word for proof reading written content.
 
 
 
+
+## Future Enhancements 
+
+FWL wanted a simple, static website so they could share their content to the health and fitness community, and by doing so they hope to grow their online presence across all platforms (internet and social).
+Beyond this FWL would like to further expand their portfolio by offering more services and products such as branded merchandise and fitness equipment, and they would also like for their clients to be able to purchase their services and products online. This means FWL would require a dynamic website that can support payment transactions and online booking/scheduling. 
+
+FWL would like their future website to allow users to do the following;
+
+- Create, update and delete a user account
+- Purchase services and products using various payment methods such as credit,debit,payapl, and klarna
+- Be able to see live updates (real time) on what merchandise and events are available (in stock) to purchase
+- Book sessions online using a real-time calendar showing the availbility of FWL and the fitness team
+- Log into an online portal where the user will have a live online personal training session
+
+ 
 
 

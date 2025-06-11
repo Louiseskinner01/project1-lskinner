@@ -294,7 +294,6 @@ color: var(--highlight-color);
 #four-span {
     color: red;
     font-size: 10em;
-    margin: auto auto;
     font-family: var(--secondary-font);
 }
 #four-p {
