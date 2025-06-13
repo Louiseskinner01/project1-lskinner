@@ -1,5 +1,6 @@
 ![fwl-black](https://github.com/user-attachments/assets/fccd189c-a850-4ee3-b6c5-9aa0acd4d987)
 
+
 # Testing methods and results
 ## Table Of Contents
 
@@ -24,7 +25,7 @@ Note: All pages include the following;
 - Nutrition
 - Contact (bookings.html)
 - Confirmation
-- 404 E
+- 404 Error
   
 | **Link/Btn Location**                                                                    | **Expected result**                                                                                                 | **Pass or Fail** |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------- |
@@ -54,7 +55,62 @@ Note: All pages include the following;
 
 
 ## Lighthouse Performance
+I used Google Chrome deveopment tools to develop and test each page within the FWL project, this is due to is expansive features including the Lighthouse Performance tool.
 
+
+<details>
+<Summary>Home page</summary>
+<details>
+<Summary>Before</summary>
+
+**Performance at 44%**  
+   <img width="1280" alt="home-44percent" src="https://github.com/user-attachments/assets/5c2c7380-20bc-4307-9c5d-fa0de02795a7" />
+**Performance at 62%**  
+<img width="1280" alt="home-errors1" src="https://github.com/user-attachments/assets/fd3082ac-ee1f-46b3-8aac-77a4e9c25aa3" />
+
+**Examples of some of the errors that needed fixing**
+<img width="1280" alt="home-errors1" src="https://github.com/user-attachments/assets/ce6912f4-2532-4b4a-a379-15457b32855f" />
+
+</details>
+<details>
+<Summary>After</summary>
+The image below shows that the home page performance has increased to **94%** . This was made possible by working through each of the errors until they were resolved and passed the Lighthouse performance checks. 
+    <br>
+  <img width="1280" alt="home-94percent" src="https://github.com/user-attachments/assets/e3ece2dd-2b6d-45ce-8870-03b270dfcf92" />
+</details>
+</details>
+<br>
+I followed the same approach for the rest of the web pages until the performance was at a optimal level.
+<br>
+
+
+<details>
+<Summary>Classes page</summary>
+
+</details>
+
+<details>
+<Summary>Nutrition page</summary>
+
+</details>
+
+<details>
+<Summary>Contact page</summary>
+<img width="1280" alt="contact-99percent" src="https://github.com/user-attachments/assets/79dfdbe7-1e30-4e62-97df-81ded5a85452" />
+</details>
+
+<details>
+<Summary>Confirmation page</summary>
+
+</details>
+<details>
+<Summary>404Error page</summary>
+
+</details>
+
+
+
+## Code Validation
 <details>
 <Summary>Homepage</summary>
    <img width="1241" alt="home-valid" src="https://github.com/user-attachments/assets/22eb59a4-020a-41b9-9b04-4e5a7f57ba8f" />
@@ -89,6 +145,6 @@ Note: All pages include the following;
 
 
 
-## Code Validation
+
 
 ## Browser Compatibility
