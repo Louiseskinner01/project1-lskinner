@@ -123,8 +123,8 @@ I followed the same approach for the rest of the web pages until the performance
 </details>
 
 <details>
-<Summary>Nutrition</summary>
-    <img width="1213" alt="nutrition-valid" src="https://github.com/user-attachments/assets/d88caac1-44f4-4d35-80ce-6d36a300a49e" />
+<Summary>Nutrition page</summary>
+<img width="1186" alt="nutrition-79percent" src="https://github.com/user-attachments/assets/773ce84e-ff81-4bbc-a8b6-4f5bc647934a" />
 </details>
 
 <details>
