@@ -80,18 +80,18 @@ The image below shows that the home page performance has increased to **94%** . 
 </details>
 </details>
 <br>
-I followed the same approach for the rest of the web pages until the performance was at a optimal level.
+I followed the same approach for the rest of the web pages until the performance was at an optimal level. Click on the links below to view the Lighthouse performance for each page.
 <br>
 
 
 <details>
 <Summary>Classes page</summary>
-
+<img width="1280" alt="classes-70percent" src="https://github.com/user-attachments/assets/af62ec4c-d9df-40a7-be2e-6d5b09094a9a" />
 </details>
 
 <details>
 <Summary>Nutrition page</summary>
-
+<img width="1186" alt="nutrition-79percent" src="https://github.com/user-attachments/assets/773ce84e-ff81-4bbc-a8b6-4f5bc647934a" />
 </details>
 
 <details>
@@ -101,32 +101,30 @@ I followed the same approach for the rest of the web pages until the performance
 
 <details>
 <Summary>Confirmation page</summary>
-
+<img width="1119" alt="confirmation-98percent" src="https://github.com/user-attachments/assets/f1ab08e9-a5dc-492d-a881-af951dc3a48b" />
 </details>
+
 <details>
 <Summary>404Error page</summary>
-
+<img width="1132" alt="Screenshot 2025-06-13 at 14 31 30" src="https://github.com/user-attachments/assets/c1964287-68b6-42aa-9f16-e62217dbf356" />
 </details>
-
 
 
 ## Code Validation
+### HTML Files
 <details>
 <Summary>Homepage</summary>
-   <img width="1241" alt="home-valid" src="https://github.com/user-attachments/assets/22eb59a4-020a-41b9-9b04-4e5a7f57ba8f" />
- 
+   <img width="1241" alt="home-valid" src="https://github.com/user-attachments/assets/22eb59a4-020a-41b9-9b04-4e5a7f57ba8f" /> 
 </details>
-
 <details>
 <Summary>Classes</summary>
     <img width="1222" alt="classes-valid" src="https://github.com/user-attachments/assets/5ade1f04-f2c6-4ce2-8382-f7bbd428171e" />
 </details>
-
 <details>
 <Summary>Nutrition page</summary>
-<img width="1186" alt="nutrition-79percent" src="https://github.com/user-attachments/assets/773ce84e-ff81-4bbc-a8b6-4f5bc647934a" />
-</details>
+<img width="1213" alt="nutrition-valid" src="https://github.com/user-attachments/assets/8044bf45-49a8-4dbd-8cbb-58f478985e7f" />
 
+</details>
 <details>
 <Summary>Contact</summary>
     <img width="1233" alt="bookings-valid" src="https://github.com/user-attachments/assets/9a0d7e33-d4bb-4c8e-99a1-01b893acc3a3" />
@@ -143,8 +141,26 @@ I followed the same approach for the rest of the web pages until the performance
 </details>
 
 
-
-
-
+### CSS Files
+<details>
+<Summary>CSS Stylesheet</summary>
+    
+    <img width="1280" alt="css-valid" src="https://github.com/user-attachments/assets/b57a7946-218a-4e6b-a693-0da71aea27a3" />
+</details>
 
 ## Browser Compatibility
+All links, carousels, dropdown menus and responsive settings have been tested, resulting in the FWL website being compatible across the following three browsers. 
+  <details>
+<Summary>Chrome Compatible</summary>
+  <img width="1209" alt="Screenshot 2025-06-13 at 20 17 04" src="https://github.com/user-attachments/assets/e2d75fea-859d-44db-824e-255ddebac60e" />
+</details>
+
+<details>
+<Summary>Safari Compatible</summary>
+    <img width="1280" alt="safari-compatible" src="https://github.com/user-attachments/assets/533cae4e-2465-47ed-9bb8-cb7dece172fa" />
+</details>
+
+<details>
+<Summary>Firefox Compatible</summary>
+    <img width="1280" alt="Screenshot 2025-06-13 at 20 11 46" src="https://github.com/user-attachments/assets/0b3ca1d2-3560-49ca-a495-6c2644239cb6" />
+</details>
