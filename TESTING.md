@@ -8,6 +8,7 @@
     - [User Stories](#user-stories)
     - [Links and Buttons](#links-and-buttons)
     - [Hover and Active State](#hover-and-active-state)
+    - [Form Validation](#form-validation)
     - [Carousels and Dropdowns](#carousels-and-dropdowns)
     - [Responsiveness](#responsiveness)
 2. [Lighthouse Performance Testing](#lighthouse-performance-testing)
@@ -63,6 +64,25 @@ Note: All pages include the following;
 | Navigation link - Active | When the user is on a web page the name of the oage will be coloured red to highlight its active state | Pass |
 | Buttons - Hover        | When a user hovers over a button is changes colour from it's base colour (booking-button-color) to a lighter green (highlight-color) | Pass  |
 | Carousel - Active   | For the carousel to work it must contain an image/video that has been assigned active, this willenable to user to swipe through the carousle content | Pass  |
+
+### Form Validation
+The Contact page provides a form which enables users to communicate their interests with FWL. The form is a Bootstrap component that I have slightly customermised to meet the requirements of the project. I have ensured that key input fields have a been set to required which means the user will be unable to submit the form without this infomration. Please see code example below;
+
+<details>
+    <summary>Required code example</summary>
+    <img width="1179" alt="Screenshot 2025-06-15 at 12 14 45" src="https://github.com/user-attachments/assets/49858306-36be-4dbc-a130-17bdfd371ae1" />
+</details>
+
+The Phone and Email input fields are a little more restricted as they have specific requirements. The **phone input field** will only take a number value (0-9) and the **email input field** is even more restricted as it not only ensures that the user has entered an @ symbol, it also requires the input to be constructed in a certain way, prompting the user to enter more infomration after the @ sign.
+
+<details>
+    <summary>Email validation</summary>
+   <img width="1280" alt="form-email1" src="https://github.com/user-attachments/assets/905b346f-4c2e-4c5c-8219-e0ea26a06280" />
+
+<img width="1280" alt="form-email2" src="https://github.com/user-attachments/assets/dd69e986-fb7a-4964-a80d-867edacc4d18" />
+
+</details>
+
 
 ### Carousels and Dropdowns
 - There are x2 carousels in the FWL website, one containing iframes to share fitness content and the other contains images and listed ingredients. Both carousels have been tested and are working as expected.
