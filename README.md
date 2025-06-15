@@ -46,6 +46,20 @@ To access free content hosted on the FWL website simply click the link below or 
 - As a user, I would like to be kept up to date with the latest health and fitness trends
 
 ### Wireframes
+#### Mobile
+- **Home page**
+  https://share.balsamiq.com/c/rUSheiHmMe94W3stxnDbwN.jpg
+- **Classes page**
+  https://share.balsamiq.com/c/x61Dfwi1PV12Wbmow9zGJZ.jpg
+- **Nutrition page**
+  https://share.balsamiq.com/c/wqdhCAnQgkGTo9fb6VxNVi.jpg
+- **Contact page** 
+  https://share.balsamiq.com/c/t6Y2r7VUAYbBJVM7BRj37t.jpg
+- **Confirmation page**
+  https://share.balsamiq.com/c/qEesYvKXAPaE2P7jHqyWy1.jpg
+- **404 Error page**
+ https://share.balsamiq.com/c/9znqdKNJwCut53ssxCq1CK.jpg
+
 <details>
  <summary>Home</summary>
  <img width="100%" alt="wireframe-index-lg" src="https://github.com/user-attachments/assets/ca60df66-2cc4-4aba-8c30-78f4323474a3" />

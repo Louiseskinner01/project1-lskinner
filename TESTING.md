@@ -118,15 +118,20 @@ I used my mobile device a lot during the deveopment of this project to check how
 <details>
 <Summary>Home page</summary>
 ![mobile-home1](https://github.com/user-attachments/assets/a616d79c-382f-4baf-a3fd-cf40e1733047)
+     <br>
 ![mobile-home2](https://github.com/user-attachments/assets/ec6af7de-d9ac-4a1f-9da0-a88e77feb8dd)
+     <br>
 ![mobile-home3](https://github.com/user-attachments/assets/d129d6bd-3945-420b-83c4-c10a4dbace7e)
 </details>
 
 <details>
 <Summary>Classes page</summary>
     ![mobile-classes1](https://github.com/user-attachments/assets/50ec13cb-a709-4a2c-8fb3-d4aafb47361f)
+     <br>
 ![mobile-classes2](https://github.com/user-attachments/assets/8f633306-9146-43fc-898e-457e6b97207c)
+     <br>
 ![mobile-classes3](https://github.com/user-attachments/assets/327d295a-8e0c-4ea1-b70b-9106cf8df905)
+     <br>
 ![mobile-classes4](https://github.com/user-attachments/assets/f8a2e7d5-2b5d-427c-88c9-7a1ecd9d5c88)
 
 </details>
@@ -134,7 +139,9 @@ I used my mobile device a lot during the deveopment of this project to check how
 <details>
 <Summary>Nutrition page</summary>
 ![mobile-nutrition1](https://github.com/user-attachments/assets/3ad4540c-e66f-40a3-bf63-a4051b024404)
+    <br>
    ![mobile-nutrition2](https://github.com/user-attachments/assets/b9574cdf-e5b2-496f-8c58-15a608e7c7b1)
+     <br>
      ![mobile-nutrition3](https://github.com/user-attachments/assets/666856a2-d7ae-4552-b122-210b7bd0e900)
 </details>
 <details>
