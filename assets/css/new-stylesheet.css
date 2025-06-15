@@ -252,7 +252,10 @@ font-family: var(--secondary-font);
 
     /* Booking-form Styling */
 #text-area-span {
-    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+   
 }
 #bookings-button {
     background-color: var(--booking-button-color);
