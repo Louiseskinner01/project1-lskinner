@@ -125,7 +125,7 @@ I used my mobile device a lot during the deveopment of this project to check how
 </details>
 <details>
 <Summary>Nutrition page</summary>
-
+![mobile-nutrition1](https://github.com/user-attachments/assets/3ad4540c-e66f-40a3-bf63-a4051b024404)
 </details>
 <details>
 <Summary>Contact page</summary>
