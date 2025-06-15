@@ -77,10 +77,15 @@ The Phone and Email input fields are a little more restricted as they have speci
 
 <details>
     <summary>Email validation</summary>
+
    <img width="1280" alt="form-email1" src="https://github.com/user-attachments/assets/905b346f-4c2e-4c5c-8219-e0ea26a06280" />
 
 <img width="1280" alt="form-email2" src="https://github.com/user-attachments/assets/dd69e986-fb7a-4964-a80d-867edacc4d18" />
+</details>
 
+<details>
+    <summary>Form submitted</summary>
+ <img width="1280" alt="form-confirmed" src="https://github.com/user-attachments/assets/af0c586d-1483-4c6a-88a0-60a7d97ff9aa" />
 </details>
 
 
@@ -90,11 +95,48 @@ The Phone and Email input fields are a little more restricted as they have speci
 
 ### Responsiveness
 
+Throughout the development of this project I have utilised the tools and features in Google Chrome Developer specifically when **responsiveness** has been the focus. I followed a "mobile first" apraoch whcih meant the devloper tool was perfect as it enabled me to view each page of the site from different screen dimentions. The main dimentions I gave attention to were Mobile, Tablet, Laptop and Desktop. Note: The following screen shots are different responses of the home page which are based off of the Google Chrome Deveoper tool.
 
+<details>
+<Summary>Mobile</summary>
+<img width="1280" alt="Screenshot 2025-06-15 at 14 39 30" src="https://github.com/user-attachments/assets/57f6d807-809f-4d1f-8df7-9f75f6d2b7bf" />
+<img width="1280" alt="Screenshot 2025-06-15 at 14 43 36" src="https://github.com/user-attachments/assets/5a6d843e-97d8-4234-aecf-9d0679770c59" /> 
+</details>
 
+<details>
+<Summary>Tablet</summary>
+<img width="1280" alt="Screenshot 2025-06-15 at 14 39 25" src="https://github.com/user-attachments/assets/9f8aea05-7595-424e-9f7e-2a776edb31d0" />
+</details>
+
+<details>
+<Summary>Laptop</summary>
+<img width="1280" alt="Screenshot 2025-06-15 at 14 39 20" src="https://github.com/user-attachments/assets/d85eff08-ad21-4842-8b8e-9d011fbfa9dd" />
+</details>
+
+I used my mobile device a lot during the deveopment of this project to check how the web pages looked after each commit (my handset Apple iPhone 14). Below are screen shots from mobile device;
+
+<details>
+<Summary>Home page</summary>
+
+</details>
+<details>
+<Summary>Classes page</summary>
+
+</details>
+<details>
+<Summary>Nutrition page</summary>
+
+</details>
+<details>
+<Summary>Contact page</summary>
+
+</details>
+<details>
+<Summary>Confirmation page</summary>
+
+</details>
 ## Lighthouse Performance Testing
 I used Google Chrome deveopment tools to develop and test each page within the FWL project, this is due to is expansive features including the Lighthouse Performance tool.
-
 
 <details>
 <Summary>Home page</summary>
