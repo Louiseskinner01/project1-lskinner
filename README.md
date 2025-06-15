@@ -33,13 +33,13 @@ To access free content hosted on the FWL website simply click the link below or 
 ## Design
 ### User-stories
 
-- As a visitor, I want to browse available fitness programs so that I can see what the site offers before booking any personal training sessions
-- As a visitor, I want to easily undestand what services and/or produducts ar provided FWL 
-- As a user, I want to select a workout plan based on my goals (e.g. strength, flexibility) so that I can have some guidance along my fitness journy
-- As a user, I want access to meal plans and nutrition advice so that I can support my fitness goals with proper diet
-- As a visitor, I want to how the trainers teach so that I can choose a trainer who matches my goals
+- As a visitor, I want to browse available fitness programs that are free and easily accessible
+- As a visitor, I want to easily undestand what services and/or produducts are provided by FWL 
+- As a user, I want to be able to book an online personal training session with a PT (e.g. strength, flexibility) so that I can have some guidance along my fitness journy
+- As a user, I want access to meal plans and nutritional advice so that I can support my fitness goals with proper diet
+- As a visitor, I want to see how the trainers teach so that I can choose a trainer who matches my goals
 - As a user, I want access to video demonstrations of exercises so that I can perform them correctly and avoid injury
-- As a user, I want to be able to register my details and have a member of FWL reach out to me
+- As a user, I want to be able to register my details and have a member of FWL reach out to me to discuss their products and services in further detail
 - As a user, I would like to find health and wellbeing events 
 - As a user, I would like to have access to juicing ideas and ingredients lists
 - As a user, I would like to easily find and follow FWL on all of their social media platforms
@@ -204,6 +204,8 @@ Accessibility Improvements – Implement ARIA roles and improve keyboard navigat
 - As a visitor, I want to create an account or log in so that I can access personalized features.
 - As a user, I want to log workouts and body stats so that I can track my progress over time
 - As a user, I want email or app reminders for my workouts so that I stay consistent with my routine.
+- As a user, I need the option to pay for products/services using methods such as debit/credit, klarna, or paypal.
+
 
 ## Future Enhancements 
 FWL wanted a simple, static website so they could share their content to the health and fitness community, and by doing so they hope to grow their online presence across all platforms (internet and social).

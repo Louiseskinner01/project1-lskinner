@@ -4,20 +4,35 @@
 # Testing methods and results
 ## Table Of Contents
 
-1. [Manual testing](#manual-testing)
+1. [Manual Testing](#manual-testing)
     - [User Stories](#user-stories)
-    - [Links & Buttons](#links-buttons)
-    - [Hover & Active State](#animation)
-    - [Carousels & Dropdowns](#features)
+    - [Links and Buttons](#links-and-buttons)
+    - [Hover and Active State](#hover-and-active-state)
+    - [Carousels and Dropdowns](#carousels-and-dropdowns)
     - [Responsiveness](#responsiveness)
-2. [Lighthouse testing](#lighthouse)
-3. [Validation testing](#validation)
-4. [Broswer Compatibility testing](#browser)
+2. [Lighthouse Performance Testing](#lighthouse-performance-testing)
+3. [Validation Testing](#validation-testing)
+4. [Broswer Compatibility Testing](#browser-compatibility-testing)
 
 
 ## Manual Testing
 ### User Stories
-### Links & Buttons
+  
+| **User Story**                | **Has the objective been met? (Y/N)**              | **How has the objective been met?** |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------- |
+| As a visitor, I want to browse available fitness programs that are free and easily accessible   | Y | The FWL website offers a range of fitness programs that are easily accessible to the user by the implementation of the Bootstrap Dropdown menu component. The programs are split into 3 training areas, each offering 4 different training programs to the user.  |
+| As a visitor, I want to easily undestand what services and/or produducts are provided by FWL    |   Y  | The FWL home page presents the user with a clear and consice message about what services/products they offer, who their target audience is, and how they can help their tagert audience to get fitter, healther and more confident.   |
+| As a user, I want to be able to book an online personal training session so that I can have some guidance along my fitness journy   |  Y   | The FWL website provides a contact form where the user can fill in their personal information and select the from the dropdown menu that they would like to book a personal training session |
+| As a user, I want access to meal plans and nutritional advice so that I can support my fitness goals with proper diet |  Y   | The FWL website provides the user with free nutritional advice and juicing ideas, these cna be found of the *Nutrition page* . Meal planning is a service provided by FWL, who have a nutritionist who consults with the user to create a bespoke meal plan that is individual to the user. This service in included with online personal training which is a paid for service.  |
+| As a visitor, I want to see how the trainers teach so that I can choose a trainer who matches my goals |  Y   | The FWL website provides a range in free online classes, these can be found on the *Classes page* . Classes are taught by the trainers giving the view (online user) some insigth as the how the trainer coaches and if theyd'e potentially be a great fit. |
+|As a user, I want access to video demonstrations of exercises so that I can perform them correctly and avoid injury|  Y   | The FWL website provides a range in free online classes, these can be found on the *Classes page* . The classes are instructor led and offer style of teaching that focuses on good form and technique, this way the user remains well informed throuhout the class and is less likely to get injured. |
+|As a user, I want to be able to register my details and have a member of FWL reach out to me to discuss their products and services in further detail | Y|    The FWL website has many clickable elements that drive the user to a contact form where they can fill in thier personla information and a personal message to the FWL team. The form is validated to elliminate errors and ensure the data is clean and valid before entering the database.  |
+|As a user, I would like to find health and wellbeing events | Y|   The FWL website provides information on their upcoming events, this can be found on the home page. To make it easier for the user I have iserted an **Events** tab in thr navigation bar on the *home page* . This will take the user to the direct part of the page where the events information is located.    |
+|As a user, I would like to have access to juicing ideas like ingredients lists | Y| The *Nutrition page* is where the user can gain access to  nutrtional content including a carousel of juices with their ingredients list. This format is super easy for the user and helps to maintain simplicity throughout the website.   |
+|As a user, I would like to easily find and follow FWL on all of their social media platforms | Y|  Across every page of the FWL website is a footbar which contains x3 icons, each respsenting the soial media accounts owned by FWL, these are Facebook, Instgram and X. The user can click on any icon and will be taken to the FWL social page using an external method.    |
+
+
+### Links and Buttons
 
 Note: All pages include the following;
 - Home (index.html)
@@ -30,14 +45,17 @@ Note: All pages include the following;
 | **Link/Btn Location**                                                                    | **Expected result**                                                                                                 | **Pass or Fail** |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------- |
 | Navigation links - All pages                                             |  Each link should take the user to a specific webpage                                                                                                                       | Pass  |
-| Register btns x6 - Home page  | Each register btn should take the user the bookings page where they will fill out a contact form                     | Pass  |
+| Register buttons x6 - Home page  | Each register btn should take the user the bookings page where they will fill out a contact form                     | Pass  |
 | Footer links - ALL pages                                                        | Each icon in the footer will link the user to a specific social media page depending on the icon clicked. The user should be taken to an external page so they don't lose their current page on the FWL website.                                                                                                                      | Pass |
-| FWL Branding Logo - Home page        | The company logo is used to drive more users to the contact form so FWL can capture their data abd grow their database.                                 | Pass  |
+| FWL Branding Logo - All pages        | The company logo is used to drive more users to the contact form so FWL can capture their data abd grow their database.                                 | Pass  |
+|Contact form submit bottun - Contact page | This button should submit all of the data that has been inserted into the contact form|   Pass |
+|Home button - 404Error page | This button should take the user back to the home page|   Pass   |
+| Home button - Confirmation page| This button should take the user back to the home page| Pass     |
 
 
 
 
-### Hover & Active State
+### Hover and Active State
 | **Hover/Active Elements**                                                                    | **Expected result**                                                                                                 | **Pass or Fail** |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------- |
 | Navigation links - Hover                                             |  When a user hovers over a link in the navigation bar it should change colour from white to green (highlight-color) unless the link is in its acitve state, then the colour will be red (primary-color)                                                                                                                       | Pass  |
@@ -46,7 +64,7 @@ Note: All pages include the following;
 | Buttons - Hover        | When a user hovers over a button is changes colour from it's base colour (booking-button-color) to a lighter green (highlight-color) | Pass  |
 | Carousel - Active   | For the carousel to work it must contain an image/video that has been assigned active, this willenable to user to swipe through the carousle content | Pass  |
 
-### Carousels & Dropdowns
+### Carousels and Dropdowns
 - There are x2 carousels in the FWL website, one containing iframes to share fitness content and the other contains images and listed ingredients. Both carousels have been tested and are working as expected.
 - There are x12 dropdown menus on the classes page, each dropdown should open up and present the user with a class fitness program for the user to follow. All dropdown elements have been tested and are working correctly.
 
@@ -54,7 +72,7 @@ Note: All pages include the following;
 
 
 
-## Lighthouse Performance
+## Lighthouse Performance Testing
 I used Google Chrome deveopment tools to develop and test each page within the FWL project, this is due to is expansive features including the Lighthouse Performance tool.
 
 
@@ -110,7 +128,7 @@ I followed the same approach for the rest of the web pages until the performance
 </details>
 
 
-## Code Validation
+## Validation Testing
 ### HTML Files
 <details>
 <Summary>Homepage</summary>
@@ -148,7 +166,7 @@ I followed the same approach for the rest of the web pages until the performance
     <img width="1280" alt="css-valid" src="https://github.com/user-attachments/assets/b57a7946-218a-4e6b-a693-0da71aea27a3" />
 </details>
 
-## Browser Compatibility
+## Browser Compatibility Testing
 All links, carousels, dropdown menus and responsive settings have been tested, resulting in the FWL website being compatible across the following three browsers. 
   <details>
 <Summary>Chrome Compatible</summary>
