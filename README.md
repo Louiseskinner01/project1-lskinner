@@ -77,12 +77,18 @@ https://share.balsamiq.com/c/kdCui56tfDGvQrM8W3dyXn.jpg
 
 #### Laptop
 - **Home page**
+https://share.balsamiq.com/c/kp1AFBtxHFGxmEWAb6rHt5.jpg
+https://share.balsamiq.com/c/1TtDyMrYvgicfSLKGzmDvA.jpg
 - **Classes page**
+https://share.balsamiq.com/c/qMzA89K7dXwTaqPaXYG9hi.jpg
 - **Nutrition page**
+https://share.balsamiq.com/c/pX9AV4KxmBh3zpw4wVuSm3.jpg
 - **Contact page**
+https://share.balsamiq.com/c/8M6fcPB1UEH3tzSvv8HCgq.jpg
 - **404 Error page**
+https://share.balsamiq.com/c/s1ZhhekZvqyHButx1EA7oB.jpg
 - **Confirmation page**
-
+https://share.balsamiq.com/c/xffbvBjPGEWGWRaZVdBWTv.jpg
 
 ### Colour-scheme
 To make the brand stand out I used the branding colours as the base colour theme for the design, this was a simple red, black and white. To make the design pop I added two additonal greens and a pink that would be assigned to a specific typography.  
