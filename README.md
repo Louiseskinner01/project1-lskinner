@@ -248,4 +248,6 @@ FWL would like their future website to allow users to do the following;
 - **ChatGBT:** Stretch Goals - User stories and some of the Main User Stories
  - **Unsplash** I used this online tool for free images of juices for the juice ingredients carousel on the Nutrition page
 
+ -
+
 
