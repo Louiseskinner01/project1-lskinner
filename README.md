@@ -5,7 +5,7 @@ FWL (Fitness with Louise) is a company offering free online fitness classes and 
 The FWL website offers a clean and simple astheitc, using the FWL company colours as a base for the colour scheme. Visitors to the site can expect a great user experience as they can easily navigate their way through the website using links (internal and external), animated buttons and social icons, and carousels and dropdown menus. 
 
 ### How to run the project
-To access free content hosted on the FWL website simply click the link below or alternatively you can copy and past https://louiseskinner01.github.io/project1-lskinner/ into your broswer.
+To access free content hosted on the FWL website simply click the link below or copy and past it into your broswer.
 
 [View Live Site.](https://louiseskinner01.github.io/project1-lskinner/) Hosted on GitHub Pages.
 ## Key Features
@@ -14,40 +14,28 @@ To access free content hosted on the FWL website simply click the link below or 
 - **Contact page:** Presents the user with a booking form that ensures the users input is validated before it can be submitted (ficticiusly), using the submit button.
 - **Nutrition page:** Offers the user nutriional advice and a carousel of Juice ingredients.
 - **404 Error page:** FWL have apersonalised 404 error page, this will be deployed if there is an error loading a page. The 404 error page has a button that the user can click to take them back to the home page.
-## Table Of Contents
+## UX Design
 
-1. [Design & Planning](#design)
-   - [User Stories](#user-stories)
-   - [Wireframes](#wireframes)
-   - [Colour Scheme](#colour-scheme)
-   - [Typography](#typography)
-2. [Features](#features)
-   - [Navigation](#navigation)
-   - [Footer](#footbar)
-   - [Video Carousel](#carousel)
-   - [Dropdown Menus](#dropdowns)
-3. [Technologies Utilised](#technologies)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-8. [Referencing & Credits](#referencing)
+### Strategy
+### Scope
+### Structure
+**Information Architecture**
+- **Navigation Menu**:
+  - Accessible links in the navbar.
+- **Hierarchy**:
+  - Prominent placement of social media links in the footer.
 
-## Design
-### User-stories
+**User Flow**
+1. User lands on the home page → learns about the club’s mission.
+2. Navigates to events → views the events → checks upcoming event details → registers for chosen event.
+3. Navigates to the classes page → views free onlines → reads exercise programs and tips
+4. Navigates to the nutrition page → learns about macro and micro nutrients → views juiuces and ingredients list via the carousel
+5. Makes enquiry by the contact page → clicks the submit button → user lands on the confirmation page
 
-- As a visitor, I want to browse available fitness programs that are free and easily accessible
-- As a visitor, I want to easily undestand what services and/or produducts are provided by FWL 
-- As a user, I want to be able to book an online personal training session with a PT (e.g. strength, flexibility) so that I can have some guidance along my fitness journy
-- As a user, I want access to meal plans and nutritional advice so that I can support my fitness goals with proper diet
-- As a visitor, I want to see how the trainers teach so that I can choose a trainer who matches my goals
-- As a user, I want access to video demonstrations of exercises so that I can perform them correctly and avoid injury
-- As a user, I want to be able to register my details and have a member of FWL reach out to me to discuss their products and services in further detail
-- As a user, I would like to find health and wellbeing events 
-- As a user, I would like to have access to juicing ideas and ingredients lists
-- As a user, I would like to easily find and follow FWL on all of their social media platforms
-- As a user, I would like to be kept up to date with the latest health and fitness trends
 
-### Wireframes
-#### Mobile
+### Skeleton
+#### Wireframes
+##### Mobile
 - **Home page**
   https://share.balsamiq.com/c/rUSheiHmMe94W3stxnDbwN.jpg
 - **Classes page**
@@ -61,7 +49,7 @@ To access free content hosted on the FWL website simply click the link below or 
 - **404 Error page**
  https://share.balsamiq.com/c/9znqdKNJwCut53ssxCq1CK.jpg
 
- #### Tablet
+ ##### Tablet
 - **Home page**
 https://share.balsamiq.com/c/iGx6GEHXuxs7aufGpzGJ5g.jpg
 - **Classes page**
@@ -75,7 +63,7 @@ https://share.balsamiq.com/c/kdCui56tfDGvQrM8W3dyXn.jpg
 - **Confirmation page**
   https://share.balsamiq.com/c/sMzKCYfu4dLqqwxT9BWxkP.jpg
 
-#### Laptop
+##### Laptop
 - **Home page**
 https://share.balsamiq.com/c/kp1AFBtxHFGxmEWAb6rHt5.jpg
 https://share.balsamiq.com/c/1TtDyMrYvgicfSLKGzmDvA.jpg
@@ -90,7 +78,8 @@ https://share.balsamiq.com/c/s1ZhhekZvqyHButx1EA7oB.jpg
 - **Confirmation page**
 https://share.balsamiq.com/c/xffbvBjPGEWGWRaZVdBWTv.jpg
 
-### Colour-scheme
+### Surface
+#### Colour-scheme
 To make the brand stand out I used the branding colours as the base colour theme for the design, this was a simple red, black and white. To make the design pop I added two additonal greens and a pink that would be assigned to a specific typography.  
 
 - **Primary colour – Red:** This acts as an active colour and also acts as a highlight colour for the footbar icons.
@@ -101,7 +90,7 @@ To make the brand stand out I used the branding colours as the base colour theme
 - Navigation font: Base = White, Active = --primary-color (red), Highlight = --highlight-color (green).
 <img width="100%" alt="colour-scheme" src="https://github.com/user-attachments/assets/be362d88-4f7f-4129-801a-e79afeef3a5a"/>
 
-### Typography
+#### Typography
 For the development of this project I have chosen to utilise Google fonts as they provide font styles that meet the design requirements for accessibility and user-experience. I imported the following fonts into my css stylesheet, each font having a a back-up font incase the browser doesn't support the gogole font. 
 - "Pacifico",  Cursive;
 - "Monserrat", Sans-serif; 
@@ -112,6 +101,23 @@ For the development of this project I have chosen to utilise Google fonts as the
 - **Monseratte:** Has been assigned as primary font which is the main font for the body.
 - **Pacifico:** Has been used for special headings to draw attention to partocular peices of content.
 - **Outfit:** Has been assigned as a secondary font for all other content.
+
+
+## User-stories
+
+- As a visitor, I want to browse available fitness programs that are free and easily accessible
+- As a visitor, I want to easily undestand what services and/or produducts are provided by FWL 
+- As a user, I want to be able to book an online personal training session with a PT (e.g. strength, flexibility) so that I can have some guidance along my fitness journy
+- As a user, I want access to meal plans and nutritional advice so that I can support my fitness goals with proper diet
+- As a visitor, I want to see how the trainers teach so that I can choose a trainer who matches my goals
+- As a user, I want access to video demonstrations of exercises so that I can perform them correctly and avoid injury
+- As a user, I want to be able to register my details and have a member of FWL reach out to me to discuss their products and services in further detail
+- As a user, I would like to find health and wellbeing events 
+- As a user, I would like to have access to juicing ideas and ingredients lists
+- As a user, I would like to easily find and follow FWL on all of their social media platforms
+- As a user, I would like to be kept up to date with the latest health and fitness trends
+
+
 ## Features
 ### Navigation
 The FWL website has a responsive navigation bar that utilises Boostrap 5 components. It has been customised to using the branding colours of FWL (which are Red, Black & White) to ensure the branding logo pops. The navbar has a simplistic approach, leaning into a clean and modernised look. The FWL company logo links to the bookings form where users can fill in their details and select from a list of reasons for contact. The booking form also features a text-box where the user can write additional information to be acompany the form.
