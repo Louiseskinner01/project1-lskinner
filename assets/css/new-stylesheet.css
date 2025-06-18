@@ -14,17 +14,21 @@
     --booking-button-color: rgba(52, 92, 10, 0.739);
 }
 
-html {
+html, body {
     height: 100vh;
 }
 
 body {
-
     margin: 0;
     padding: 0;
     border: 0;
     font-family: var(--primary-font);
 }
+
+Body > footer {
+    Position: sticky;
+    Top: vh;
+    }
 
 h1,
 h2,
@@ -131,6 +135,11 @@ a.nav-link:hover {
     padding: 10px 5px 0 5px;
 }
 
+.card img{
+    Max-height: 220px;
+    Object-fit: contain;
+    }
+
 .card-hover:hover {
     border-color: var(--highlight-color);   
 }
@@ -233,7 +242,7 @@ caption {
 .dropdown .conditioning {
     background-color: var(--secondary-color);
 }
-.dropdown .stretch {
+.dropdown .core {
     background-color: var(--highlight-color);
 }
 
@@ -242,7 +251,6 @@ caption {
     height: auto;
     display: block;
 }
-
 
 .dropdown span {
 padding: 5px;

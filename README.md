@@ -133,12 +133,12 @@ The navbar also features a hover changing the hobered nav link from it's base co
 The footbar is very clean and simple, containing only 1 heading and 3 icons. Each icon has been customised to be slightly larger than their original aspect and a different colour. They are coloured green (highlight colour) and when hovered upon they turn red (primary colour), this highlights the interactiveness the user experiences and brings life to the footbar bar.
  To enhance the users experience I have also applied the targe="_blank" attribute so when the user clicks on the icon they are taken to an external page and won't be lose their current page on the FWL website.
 <details>
-<Summary>Footbar</summary>
-<img width="100%" alt="footer" src="https://github.com/user-attachments/assets/bbbe307f-4f04-4d1c-a6f5-4a4fe1f6ce80" />
+<Summary>Footer</summary>
+
 </details>
 <details>
-<Summary>Footbar Hover</summary>
-<img width="100%" alt="footbar-hover" src="https://github.com/user-attachments/assets/3cf6cd26-03b5-4396-a144-fa9de36c28bb" />
+<Summary>Footer Hover</summary>
+
 </details>
 
 ### Carousel
