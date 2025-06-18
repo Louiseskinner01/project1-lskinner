@@ -15,7 +15,6 @@ To access free content hosted on the FWL website simply click the link below or 
 - **Nutrition page:** Offers the user nutriional advice and a carousel of Juice ingredients.
 - **404 Error page:** FWL have apersonalised 404 error page, this will be deployed if there is an error loading a page. The 404 error page has a button that the user can click to take them back to the home page.
 ## UX Design
-
 ### Strategy
 **Purpose**
 - Encourage users to book a personal training session by showcasing their  free online classes and training programs.
@@ -48,7 +47,6 @@ To access free content hosted on the FWL website simply click the link below or 
 3. Navigates to the classes page → views free onlines → reads exercise programs and tips
 4. Navigates to the nutrition page → learns about macro and micro nutrients → views juiuces and ingredients list via the carousel
 5. Makes enquiry by the contact page → clicks the submit button → user lands on the confirmation page
-
 
 ### Skeleton
 #### Wireframes
@@ -237,8 +235,49 @@ The screenshots below show some of the errors I had and confirm that the code is
 - **Favcon Converter:** I used an online converter to make the FWL company logo into a favcon so the logo would be visible in the browser tab.
 - **MS Word:** I used Microsoft Word for proof reading written content.
 ## Deployment
-To deploy the FWL website I used the Github-pages feature, this generates a link enabling developers to get an actual view of how the site looks live and it offers the opportunity to share their project with others such an future employers, tutors and peers.
-To use github-pages I had to create a repository and connect it to my VS Code (IDE), this is the development environment used to code the webiste and commit any changes made throughout the deveopment of the project. Commits go directly to the Github repository, and if the site is already deployed, the changes will be visible within a short frame of time (usually a couple of minutes).
+### GitHub Pages
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+- In the [GitHub repository](https://www.github.com/Louiseskinner01/project1-lskinner), navigate to the "Settings" tab.
+- In Settings, click on the "Pages" link from the menu on the left.
+- From the "Build and deployment" section, click the drop-down called "Branch", and select the **main** branch, then click "Save".
+- The page will be automatically refreshed with a detailed message display to indicate the successful deployment.
+- Allow up to 5 minutes for the site to fully deploy.
+
+The live link can be found on [GitHub Pages](https://louiseskinner01.github.io/project1-lskinner).
+
+### Local Development
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://www.github.com/Louiseskinner01/project1-lskinner).
+2. Locate and click on the green "Code" button at the very top, above the commits and files.
+3. Select whether you prefer to clone using "HTTPS", "SSH", or "GitHub CLI", and click the "copy" button to copy the URL to your clipboard.
+4. Open "Git Bash" or "Terminal".
+5. Change the current working directory to the location where you want the cloned directory.
+6. In your IDE Terminal, type the following command to clone the repository:
+	- `git clone https://www.github.com/Louiseskinner01/project1-lskinner.git`
+7. Press "Enter" to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://www.github.com/Louiseskinner01/project1-lskinner)
+
+**Please Note**: in order to directly open the project in Gitpod, you should have the browser extension installed. A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://www.github.com/Louiseskinner01/project1-lskinner).
+2. At the top of the Repository, just below the "Settings" button on the menu, locate and click the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
 ## Stretch Goals
 ### For the site
 Responsive Design Enhancements – Optimize the site for tablets and large displays (beyond mobile responsiveness).
