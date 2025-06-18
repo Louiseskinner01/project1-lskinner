@@ -17,7 +17,24 @@ To access free content hosted on the FWL website simply click the link below or 
 ## UX Design
 
 ### Strategy
+**Purpose**
+- Encourage users to book a personal training session by showcasing their  free online classes and training programs.
+- Provide a seamless user experience to keep users informed and engaged.
+
+**Primary User Needs**
+- Learn about the companies purpose, service offering and events.
+- Join the a community of like minded people and keep up to date with latest health and fitness trends.
+- Access responsive, user-friendly content.
+
+**Business Goals**
+- Increase online presence.
+- Boost participation in events and social media engagement.
 ### Scope
+**Content Requirements**
+- Clear, motivational text about the companies mission.
+- Classes to showcase the instrutors and their teaching styles.
+- Event schedules, descriptions and registration buttons.
+- Contact form for users to book pt sessions, register for events, enquire about careers or for anything else.
 ### Structure
 **Information Architecture**
 - **Navigation Menu**:
@@ -26,7 +43,7 @@ To access free content hosted on the FWL website simply click the link below or 
   - Prominent placement of social media links in the footer.
 
 **User Flow**
-1. User lands on the home page → learns about the club’s mission.
+1. User lands on the home page → learns about the companies mission.
 2. Navigates to events → views the events → checks upcoming event details → registers for chosen event.
 3. Navigates to the classes page → views free onlines → reads exercise programs and tips
 4. Navigates to the nutrition page → learns about macro and micro nutrients → views juiuces and ingredients list via the carousel
