@@ -54,7 +54,8 @@ The Contact page provides a form which enables users to communicate their intere
 
 <details>
     <summary>The "required" attribute</summary>
- ![html code screenshot](documentation/testing/form-validation/code-example.png)
+ 
+  ![html code screenshot](documentation/testing/form-validation/code-example.png)
 </details>
 
 The Phone and Email input fields are a little more restricted as they have specific requirements. The **phone input field** will only take a number value (0-9) and the **email input field** is even more restricted as it not only ensures that the user has entered an @ symbol, it also requires the input to be constructed in a certain way, prompting the user to enter more infomration after the @ sign.
@@ -70,7 +71,8 @@ The Phone and Email input fields are a little more restricted as they have speci
 
 <details>
     <summary>Form submitted</summary>
-![form-submitted](documentation/testing/form-validation/form-submitted.png)</details>
+
+  ![form-submitted](documentation/testing/form-validation/form-submitted.png)
 
 </details>
 
@@ -79,176 +81,237 @@ The Phone and Email input fields are a little more restricted as they have speci
 ### Carousels and Dropdowns
 - There are x2 carousels in the FWL website, one containing iframes to share fitness content and the other contains images and listed ingredients. Both carousels have been tested and are working as expected.
 - There are x12 dropdown menus on the classes page, each dropdown should open up and present the user with a class fitness program for the user to follow. All dropdown elements have been tested and are working correctly.
-![](documentation/readme/features/feature-carousel.png)
-![](documentation/readme/features/feature-carousel3.png)
+
+   **NUTRITION**
+ ![carousel-classes](documentation/readme/features/feature-carousel2.png)
+
+  **CLASSES**
+ ![carousel-nutrition](documentation/readme/features/feature-carousel1.png)
+ 
 ### Responsiveness
 
-Throughout the development of this project I have utilised the tools and features in Google Chrome Developer specifically when **responsiveness** has been the focus. I followed a "mobile first" apraoch whcih meant the devloper tool was perfect as it enabled me to view each page of the site from different screen dimentions. The main dimentions I gave attention to were Mobile, Tablet, Laptop and Desktop. Note: The following screen shots are different responses of the home page which are based off of the Google Chrome Deveoper tool.
+Throughout the development of this project I have utilised the tools and features in Google Chrome Developer specifically when **responsiveness** has been the focus. For the development of this project I followed a "mobile first" apraoch, finding the devloper tools very effective for responsive styling and trouble shooting. It allowed me to view each html page from different screen dimentions such as Mobile, Tablet, Laptop and Desktop. Note: The following screen shots are different responses of the home page which are based off of the Google Chrome Deveoper tool.
 
+#### Chrome Developer Responsive Designs
 <details>
-<Summary>Mobile</summary>
-<img width="1280" alt="Screenshot 2025-06-15 at 14 39 30" src="https://github.com/user-attachments/assets/57f6d807-809f-4d1f-8df7-9f75f6d2b7bf" />
-<img width="1280" alt="Screenshot 2025-06-15 at 14 43 36" src="https://github.com/user-attachments/assets/5a6d843e-97d8-4234-aecf-9d0679770c59" /> 
+<Summary>Mobile-responsive Screenshots</summary>
+
+  **NAVIGATION TOGGLE COLLAPSE**
+  
+  ![mobile-home1](documentation/testing/responsiveness/mobile/home-collapse.png)
+
+  **NAVIGATION TOGGLE EXPAND**
+
+  ![mobile-home2](documentation/testing/responsiveness/mobile/home-toggle.png)
+
+   **CLASSES PAGE - DROPDOWN MENU**
+
+  ![mobile-classes](documentation/testing/responsiveness/mobile/classes.png)
+
+   **NUTRITION PAGE - TABLE**
+
+  ![mobile-nutrition](documentation/testing/responsiveness/mobile/nutrition.png)
+ 
 </details>
 
 <details>
 <Summary>Tablet</summary>
-<img width="1280" alt="Screenshot 2025-06-15 at 14 39 25" src="https://github.com/user-attachments/assets/9f8aea05-7595-424e-9f7e-2a776edb31d0" />
+  
+  ![mobile-home1](documentation/testing/responsiveness/tablet/home-card-footer.png)
+  
 </details>
 
 <details>
 <Summary>Laptop</summary>
-<img width="1280" alt="Screenshot 2025-06-15 at 14 39 20" src="https://github.com/user-attachments/assets/d85eff08-ad21-4842-8b8e-9d011fbfa9dd" />
+  
+  **CLASSES**
+  
+  ![mobile-home1](documentation/testing/responsiveness/laptop/classes.png)
+    **NUTRITION** 
+  
+   ![mobile-home1](documentation/testing/responsiveness/laptop/nutrition.png)
+  
 </details>
 
-I used my mobile device a lot during the deveopment of this project to check how the web pages looked after each commit (my handset Apple iPhone 14). Below are screen shots from mobile device;
+#### Mobile Device Screenshots
+During the deveopment of this project I used my mobile device to check frequently check the style and responsiveness of each web page. This enabled me to focus on a mobile first approach, the handset I used was an Apple iPhone 14. Below are screen shots from mobile device;
 
 <details>
 <Summary>Home page</summary>
-![mobile-home1](https://github.com/user-attachments/assets/a616d79c-382f-4baf-a3fd-cf40e1733047)
-     <br>
-![mobile-home2](https://github.com/user-attachments/assets/ec6af7de-d9ac-4a1f-9da0-a88e77feb8dd)
-     <br>
-![mobile-home3](https://github.com/user-attachments/assets/d129d6bd-3945-420b-83c4-c10a4dbace7e)
+  
+  ![mobile-home1](documentation/testing/responsiveness/mobile-device/home1.png)
+
+  ![mobile-home2](documentation/testing/responsiveness/mobile-device/home2.png) 
+
+   ![mobile-home3](documentation/testing/responsiveness/mobile-device/home3.png)
+
 </details>
 
 <details>
 <Summary>Classes page</summary>
-    ![mobile-classes1](https://github.com/user-attachments/assets/50ec13cb-a709-4a2c-8fb3-d4aafb47361f)
-     <br>
-![mobile-classes2](https://github.com/user-attachments/assets/8f633306-9146-43fc-898e-457e6b97207c)
-     <br>
-![mobile-classes3](https://github.com/user-attachments/assets/327d295a-8e0c-4ea1-b70b-9106cf8df905)
-     <br>
-![mobile-classes4](https://github.com/user-attachments/assets/f8a2e7d5-2b5d-427c-88c9-7a1ecd9d5c88)
+  
+  ![mobile-classes1](documentation/testing/responsiveness/mobile-device/classes1.png) 
+    
+  ![mobile-classes2](documentation/testing/responsiveness/mobile-device/classes1.png) 
+    
+  ![mobile-classes3](documentation/testing/responsiveness/mobile-device/classes3.png)
 
 </details>
 
 <details>
 <Summary>Nutrition page</summary>
-![mobile-nutrition1](https://github.com/user-attachments/assets/3ad4540c-e66f-40a3-bf63-a4051b024404)
-    <br>
-   ![mobile-nutrition2](https://github.com/user-attachments/assets/b9574cdf-e5b2-496f-8c58-15a608e7c7b1)
-     <br>
-     ![mobile-nutrition3](https://github.com/user-attachments/assets/666856a2-d7ae-4552-b122-210b7bd0e900)
+  
+![mobile-nutrition1](documentation/testing/responsiveness/mobile-device/nutrition1.png) 
+![mobile-nutrition2](documentation/testing/responsiveness/mobile-device/nutrition2.png) 
+![mobile-nutrition3](documentation/testing/responsiveness/mobile-device/nutrition3.png)
+  
+  
+     
+  
+     
 </details>
+
 <details>
 <Summary>Contact page</summary>
-![mobile-contact-form](https://github.com/user-attachments/assets/1f47f33a-8e36-4e66-adc0-9e8d74b891d2)
+  
+  ![mobile-contact-form](documentation/testing/responsiveness/mobile-device/contact.png)
 
 </details>
 <details>
 <Summary>Confirmation page</summary>
-![mobile-confirmation](https://github.com/user-attachments/assets/25fa3038-a417-4d7b-91aa-93eb02c564b7)
+  
+  ![mobile-confirmation](documentation/testing/responsiveness/mobile-device/confirmation.png)
 
 </details>
 
 ## Lighthouse Performance Testing
 I used Google Chrome deveopment tools to develop and test each page within the FWL project, this is due to is expansive features including the Lighthouse Performance tool.
 
+  
 <details>
-<Summary>Home page</summary>
-<details>
-<Summary>Before</summary>
+<Summary>Initial lighthouse testing results on the Home page</summary>
 
 **Performance at 44%**  
-   <img width="1280" alt="home-44percent" src="https://github.com/user-attachments/assets/5c2c7380-20bc-4307-9c5d-fa0de02795a7" />
+     ![Home page performance 44%](documentation/testing/lighthouse-performance/home-44percent.png)
+
 **Performance at 62%**  
-<img width="1280" alt="home-errors1" src="https://github.com/user-attachments/assets/fd3082ac-ee1f-46b3-8aac-77a4e9c25aa3" />
-
-**Examples of some of the errors that needed fixing**
-<img width="1280" alt="home-errors1" src="https://github.com/user-attachments/assets/ce6912f4-2532-4b4a-a379-15457b32855f" />
+ ![Home page performance 62%](documentation/testing/lighthouse-performance/home-62percent.png)
 
 </details>
-<details>
-<Summary>After</summary>
-The image below shows that the home page performance has increased to **94%** . This was made possible by working through each of the errors until they were resolved and passed the Lighthouse performance checks. 
-    <br>
-  <img width="1280" alt="home-94percent" src="https://github.com/user-attachments/assets/e3ece2dd-2b6d-45ce-8870-03b270dfcf92" />
+
+<details open>
+<Summary>Increased performance once the errors had been resolved</summary>
+The image below shows that the home page performance has increased to 94%. This was made possible by working through each of the errors until they were resolved and passed the Lighthouse performance checks. 
+
+  ![Home page performance 94%](documentation/testing/lighthouse-performance/home-94percent.png)
+
 </details>
-</details>
+
 <br>
 I followed the same approach for the rest of the web pages until the performance was at an optimal level. Click on the links below to view the Lighthouse performance for each page.
 <br>
 
-
 <details>
 <Summary>Classes page</summary>
-<img width="1280" alt="classes-70percent" src="https://github.com/user-attachments/assets/af62ec4c-d9df-40a7-be2e-6d5b09094a9a" />
+  
+![Classes page]()
+
 </details>
 
 <details>
 <Summary>Nutrition page</summary>
-<img width="1186" alt="nutrition-79percent" src="https://github.com/user-attachments/assets/773ce84e-ff81-4bbc-a8b6-4f5bc647934a" />
+  
+![Nutrition page](documentation/testing/lighthouse-performance/nutrition.png)
+
 </details>
 
 <details>
 <Summary>Contact page</summary>
-<img width="1280" alt="contact-99percent" src="https://github.com/user-attachments/assets/79dfdbe7-1e30-4e62-97df-81ded5a85452" />
+
+  ![Contact page](documentation/testing/lighthouse-performance/contact.png)
+
 </details>
 
 <details>
 <Summary>Confirmation page</summary>
-<img width="1119" alt="confirmation-98percent" src="https://github.com/user-attachments/assets/f1ab08e9-a5dc-492d-a881-af951dc3a48b" />
+
+![Confirmation page](documentation/testing/lighthouse-performance/confirmation.png)
+
 </details>
 
 <details>
 <Summary>404Error page</summary>
-<img width="1132" alt="Screenshot 2025-06-13 at 14 31 30" src="https://github.com/user-attachments/assets/c1964287-68b6-42aa-9f16-e62217dbf356" />
+  
+![404Error page](documentation/testing/lighthouse-performance/404.png)
+
 </details>
 
 
 ## Validation Testing
 ### HTML Files
-<details>
+<details open>
 <Summary>Homepage</summary>
-   <img width="1241" alt="home-valid" src="https://github.com/user-attachments/assets/22eb59a4-020a-41b9-9b04-4e5a7f57ba8f" /> 
+
+   ![](documentation/readme/validations/home-validation.png)
 </details>
+
 <details>
 <Summary>Classes</summary>
-    <img width="1222" alt="classes-valid" src="https://github.com/user-attachments/assets/5ade1f04-f2c6-4ce2-8382-f7bbd428171e" />
+
+  ![](documentation/readme/validations/classes-validation.png)
+
 </details>
+
 <details>
 <Summary>Nutrition page</summary>
-<img width="1213" alt="nutrition-valid" src="https://github.com/user-attachments/assets/8044bf45-49a8-4dbd-8cbb-58f478985e7f" />
+   
+  ![](documentation/readme/validations/nutrition-validation.png)
 
 </details>
 <details>
 <Summary>Contact</summary>
-    <img width="1233" alt="bookings-valid" src="https://github.com/user-attachments/assets/9a0d7e33-d4bb-4c8e-99a1-01b893acc3a3" />
+      
+  ![](documentation/readme/validations/bookings-validation.png)
 </details>
 
 <details>
 <Summary>Confirmation</summary>
- 
+   
+  ![](documentation/readme/validations/confirmation-validation.png)
 </details>
 
 <details>
 <Summary>404 Error</summary>
-    <img width="1054" alt="Screenshot 2025-06-11 at 14 04 38" src="https://github.com/user-attachments/assets/bbe421c3-04e5-4b36-b518-f88b6f2dfed6" />
-</details>
+
+  ![](documentation/readme/validations/404-validation.png)</details>
 
 
 ### CSS Files
-<details>
+<details open>
 <Summary>CSS Stylesheet</summary>
-    
-    <img width="1280" alt="css-valid" src="https://github.com/user-attachments/assets/b57a7946-218a-4e6b-a693-0da71aea27a3" />
+      
+  ![](documentation/readme/validations/css-validation.png)
 </details>
 
 ## Browser Compatibility Testing
 All links, carousels, dropdown menus and responsive settings have been tested, resulting in the FWL website being compatible across the following three browsers. 
-  <details>
+
+  <details open>
 <Summary>Chrome Compatible</summary>
-  <img width="1209" alt="Screenshot 2025-06-13 at 20 17 04" src="https://github.com/user-attachments/assets/e2d75fea-859d-44db-824e-255ddebac60e" />
-</details>
+
+  ![](documentation/testing/browser-compatibility/chrome.png)
+     
+  </details>
 
 <details>
 <Summary>Safari Compatible</summary>
-    <img width="1280" alt="safari-compatible" src="https://github.com/user-attachments/assets/533cae4e-2465-47ed-9bb8-cb7dece172fa" />
+
+  ![](documentation/testing/browser-compatibility/safari.png)
+  
 </details>
 
 <details>
 <Summary>Firefox Compatible</summary>
-    <img width="1280" alt="Screenshot 2025-06-13 at 20 11 46" src="https://github.com/user-attachments/assets/0b3ca1d2-3560-49ca-a495-6c2644239cb6" />
-</details>
+
+   ![](documentation/testing/browser-compatibility/firefox.png)
+   </details>
