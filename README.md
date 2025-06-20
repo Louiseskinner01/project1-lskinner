@@ -52,12 +52,8 @@ To access free content hosted on the FWL website simply click the link below or 
 #### Wireframes
 ##### Mobile
 
-<details><summary>Home page</summary>
+**Home page**
   ![wireframe mobile-home](documentation/readme/wireframes/mobile/404error-page.jpg)
-</details>
-
-
-
 - **Classes page**
   ![wireframe mobile-classes](documentation/readme/wireframes/mobile/classes-page.jpg)
 - **Nutrition page**
@@ -163,9 +159,9 @@ The footbar is very clean and simple, containing only 1 heading and 3 icons. Eac
 ### Carousel
 FWL wanted to provide free online classes for the website visitors to help promote health and wellbeing and grow a fitness community. To maintain a minimal look across the site I decided to implement a video carousel for website users to easily browse the online classes.
 This appaoch is based on utilising iframe tags over video tags because it saves space in the developers assets folder and is faster to load in the browser.
-![image of carousel](documentation/readme/features/feature-carousel.png)
+![image of carousel](documentation/readme/features/feature-carousel1.png)
 
-![image of carousel](documentation/readme/features/feature-carousel3.png)
+![image of carousel](documentation/readme/features/feature-carousel2.png)
 ### Dropdowns 
 FWL provide free fitness programs and wanted this to be something that looked clean and was a simple procress for the web user. I decided to use a series of dropdown menus, setting the menu-item to an auto hight so content was presented nicely and didn't take up too much space.
 The dropdown menus are segregated into 3 blocks, each reflecting a different type of training, these are;
@@ -173,7 +169,7 @@ The dropdown menus are segregated into 3 blocks, each reflecting a different typ
 - Conditioning
 - Stretch & Mobility
 
-![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown.png)
+![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown.1png)
 ![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown2.png)
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
