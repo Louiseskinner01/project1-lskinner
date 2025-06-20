@@ -50,23 +50,41 @@ To access free content hosted on the FWL website simply click the link below or 
 
 ### Skeleton
 #### Wireframes
-##### Home page
- ![Home-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-home-page.png)
-##### Classes page
- ![Classes-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-classes-page.png)
-##### Nutrition page
- ![Nutrition-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-nutrition-page.png)
 
-##### Contact page
+<details><summary>Home pages</summary>
+
+  ![Home-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-home-page.png)
+
+</details>
+
+<details><summary>Classes pages</summary>
+
+ ![Classes-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-classes-page.png)
+
+</details>
+
+<details><summary>Nutrition pages</summary>
+
+  ![Nutrition-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-nutrition-page.png)
+
+</details>
+
+<details><summary>Contact pages</summary>
+
  ![Contact-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-contact-page.png)
 
-##### Confirmation page
- ![Confirmation-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-confirmation-page.png)
+</details>
 
-##### 404 Error page
+<details><summary>Confirmation pages</summary>
+
+![Confirmation-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-confirmation-page.png)
+
+</details>
+<details><summary>404Error pages</summary>
+
  ![404Error-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-404error-page.png)
 
-
+</details>
 
 ### Surface
 #### Colour-scheme
@@ -144,9 +162,9 @@ The dropdown menus are segregated into 3 blocks, each reflecting a different typ
 - Conditioning
 - Stretch & Mobility
 
-![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown.1png)
+ ![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown1.png)
 
-![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown2.png)
+ ![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown2.png)
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
@@ -155,6 +173,7 @@ The FWL website has been put through a serious of vigourus testing methods to en
 ### Languages
 - HTML
 - CSS
+-Javascript (Most of the Bootstrap components I have used are Javascript dependant. I have included the Bootstrap javascript tags in my HTML documents to support these features)
 ### Frameworks
 - **Bootstrap:** I utilised Bootstrap version so I could develop the FWL website to be responsive, accessible and inline with web developement trends. Boostrap offers a range of components to allow for a faster development and a modern result.
 
@@ -170,6 +189,7 @@ Github isn't just a configuration management tool it provides a special feature 
 - **Google Fonts:** I have imported 3 different Google font styles into my CSS file to style the FWL website, helping to draw attention to specific content areas.
 - **Font Awesome:** Provides scalable icons used for social media links and other design elements.
 - **Favicon Generator:** I used this online tool to create an icon that can sit in the title tabe of the web pages.
+- **Unsplash:** This website provides high quality pictures. I utillied this tool for add images of juices to the carousel on the nutrition page.
 
 #### Validation testing
 **W3C Validator:** I used this online tool to validate my CSS and HTML code. It's a great tool as it higghlighted many issues I had in my code and I was able to make amendments to ensure all my code clean and valid. 
@@ -265,3 +285,7 @@ FWL would like their future website to allow users to do the following;
 | [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
 
 
+### Media 
+All photos & videos excpet for the photos in the carousel on the nutrition page are property of Louise Skinner (my self). They were initally for a fitness app I wanted to build in 20222, but God had other plans for me and blessed me with my beautiful Son so the app was put on hold.Now the recordings and the FWL company logo (Fitness with Louise) can finally be put to good use.
+
+The images in the carousel in the nutrition oage are from https://unsplash.com/ an website that provides free, high quality images.
