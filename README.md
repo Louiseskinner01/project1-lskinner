@@ -155,16 +155,25 @@ This appaoch is based on utilising iframe tags over video tags because it saves 
 ![image of carousel](documentation/readme/features/feature-carousel1.png)
 
 ![image of carousel](documentation/readme/features/feature-carousel2.png)
-### Dropdowns 
+### Dropdown menus 
 FWL provide free fitness programs and wanted this to be something that looked clean and was a simple procress for the web user. I decided to use a series of dropdown menus, setting the menu-item to an auto hight so content was presented nicely and didn't take up too much space.
 The dropdown menus are segregated into 3 blocks, each reflecting a different type of training, these are;
 - Strength
 - Conditioning
 - Stretch & Mobility
 
+#### Classes dropdown menu
+
  ![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown1.png)
 
+#### Classes dropdown menu with items showns
+
+<details><summary>Dropdown menu with items</summary>
+
  ![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown2.png)
+
+</details>
+
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
@@ -289,3 +298,8 @@ FWL would like their future website to allow users to do the following;
 All photos & videos excpet for the photos in the carousel on the nutrition page are property of Louise Skinner (my self). They were initally for a fitness app I wanted to build in 20222, but God had other plans for me and blessed me with my beautiful Son so the app was put on hold.Now the recordings and the FWL company logo (Fitness with Louise) can finally be put to good use.
 
 The images in the carousel in the nutrition oage are from https://unsplash.com/ an website that provides free, high quality images.
+
+### Acknowledgements
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
