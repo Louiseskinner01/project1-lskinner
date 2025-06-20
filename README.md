@@ -1,4 +1,4 @@
- ![fwl-black](https://github.com/user-attachments/assets/10bc44ec-2069-42d8-a564-cf9a5752369a)
+ ![FWL Logo](documentation/fwl-black.png)
 # FWL online fitness classes and nutritional advice
 ## About
 FWL (Fitness with Louise) is a company offering free online fitness classes and nutritional advice via their newly built website. Theyr'e targeting  those who want to improve their health and wellbeing and build their inner confidence, as they strogly belive they have the right coaches who can deliver high energy and top quality online classes. Besides free classes, FWL provide other services such as online 1-to-1 personal training sessions and health and fitness events, both in the UK and abroad.
@@ -18,7 +18,7 @@ To access free content hosted on the FWL website simply click the link below or 
 ### Strategy
 **Purpose**
 - Encourage users to book a personal training session by showcasing their  free online classes and training programs.
-- Provide a seamless user experience to keep users informed and engaged.
+- Provide a seamless user experience to keep users engaged in physical activity and educated on nutrition, health and wellness.
 
 **Primary User Needs**
 - Learn about the companies purpose, service offering and events.
@@ -44,54 +44,58 @@ To access free content hosted on the FWL website simply click the link below or 
 **User Flow**
 1. User lands on the home page → learns about the companies mission.
 2. Navigates to events → views the events → checks upcoming event details → registers for chosen event.
-3. Navigates to the classes page → views free onlines → reads exercise programs and tips
-4. Navigates to the nutrition page → learns about macro and micro nutrients → views juiuces and ingredients list via the carousel
-5. Makes enquiry by the contact page → clicks the submit button → user lands on the confirmation page
+3. Navigates to the classes page → the user views free online classes → access to free training programs and exercise tips.
+4. Navigates to the nutrition page → learns about macro and micro nutrients → views juiuces and ingredients lists via a carousel.
+5. Makes an enquiry by the contact page → clicks the submit button → user lands on the confirmation page.
 
 ### Skeleton
 #### Wireframes
 ##### Mobile
-- **Home page**
-  https://share.balsamiq.com/c/rUSheiHmMe94W3stxnDbwN.jpg
+
+<details><summary>Home page</summary>
+  ![wireframe mobile-home](documentation/readme/wireframes/mobile/404error-page.jpg)
+</details>
+
+
+
 - **Classes page**
-  https://share.balsamiq.com/c/x61Dfwi1PV12Wbmow9zGJZ.jpg
+  ![wireframe mobile-classes](documentation/readme/wireframes/mobile/classes-page.jpg)
 - **Nutrition page**
-  https://share.balsamiq.com/c/wqdhCAnQgkGTo9fb6VxNVi.jpg
+  ![wireframe mobile-nutrition](documentation/readme/wireframes/mobile/nutrition-page.jpg)
 - **Contact page** 
-  https://share.balsamiq.com/c/t6Y2r7VUAYbBJVM7BRj37t.jpg
+  ![wireframe mobile-contact](documentation/readme/wireframes/mobile/contact-page.jpg)
 - **Confirmation page**
-  https://share.balsamiq.com/c/qEesYvKXAPaE2P7jHqyWy1.jpg
+  ![wireframe mobile-confirmation](documentation/readme/wireframes/mobile/confirmation-page.jpg)
 - **404 Error page**
- https://share.balsamiq.com/c/9znqdKNJwCut53ssxCq1CK.jpg
+ ![wireframe mobile-404error](documentation/readme/wireframes/mobile/404error-page.jpg)
 
  ##### Tablet
 - **Home page**
-https://share.balsamiq.com/c/iGx6GEHXuxs7aufGpzGJ5g.jpg
+![wireframe tablet-](documentation/readme/wireframes/tablet/home-page.jpg)
 - **Classes page**
-https://share.balsamiq.com/c/teSdCmxogmffi9qJEt42mA.jpg
+![wireframe tablet-](documentation/readme/wireframes/tablet/classes-page.jpg)
 - **Nutrition page**
-https://share.balsamiq.com/c/eAqLWSir3WgVjtdTepXMgJ.jpg
+![wireframe tablet-](documentation/readme/wireframes/tablet/nutrition-page.jpg)
 - **Contact page**
-https://share.balsamiq.com/c/rq7dTgM1Rid5ze5gWq7L53.jpg
+![wireframe tablet-](documentation/readme/wireframes/tablet/contact-page.jpg)
 - **404 Error page**
-https://share.balsamiq.com/c/kdCui56tfDGvQrM8W3dyXn.jpg
+![wireframe tablet-404error](documentation/readme/wireframes/tablet/404-page.jpg)
 - **Confirmation page**
-  https://share.balsamiq.com/c/sMzKCYfu4dLqqwxT9BWxkP.jpg
+![wireframe tablet-](documentation/readme/wireframes/tablet/confirmation-page.jpg)
 
 ##### Laptop
 - **Home page**
-https://share.balsamiq.com/c/kp1AFBtxHFGxmEWAb6rHt5.jpg
-https://share.balsamiq.com/c/1TtDyMrYvgicfSLKGzmDvA.jpg
+![wireframe laptop-](documentation/readme/wireframes/laptop/home-page.jpg)
 - **Classes page**
-https://share.balsamiq.com/c/qMzA89K7dXwTaqPaXYG9hi.jpg
+![wireframe laptop-](documentation/readme/wireframes/laptop/classes-page.jpg)
 - **Nutrition page**
-https://share.balsamiq.com/c/pX9AV4KxmBh3zpw4wVuSm3.jpg
+![wireframe laptop-](documentation/readme/wireframes/laptop/nutrition-pages.jpg)
 - **Contact page**
-https://share.balsamiq.com/c/8M6fcPB1UEH3tzSvv8HCgq.jpg
+![wireframe laptop-](documentation/readme/wireframes/laptop/contact-page.jpg)
 - **404 Error page**
-https://share.balsamiq.com/c/s1ZhhekZvqyHButx1EA7oB.jpg
+![wireframe laptop-404error](documentation/readme/wireframes/laptop/404-page.jpg)
 - **Confirmation page**
-https://share.balsamiq.com/c/xffbvBjPGEWGWRaZVdBWTv.jpg
+![wireframe laptop-](documentation/readme/wireframes/laptop/confirmation-page.jpg)
 
 ### Surface
 #### Colour-scheme
@@ -103,7 +107,7 @@ To make the brand stand out I used the branding colours as the base colour theme
 - Booking-button colour: This colour has been applied to all buttons throughout the website.
 
 - Navigation font: Base = White, Active = --primary-color (red), Highlight = --highlight-color (green).
-<img width="100%" alt="colour-scheme" src="https://github.com/user-attachments/assets/be362d88-4f7f-4129-801a-e79afeef3a5a"/>
+![colours used for the FWL project](documentation/readme/other-images/root-variables-colours.png)
 
 #### Typography
 For the development of this project I have chosen to utilise Google fonts as they provide font styles that meet the design requirements for accessibility and user-experience. I imported the following fonts into my css stylesheet, each font having a a back-up font incase the browser doesn't support the gogole font. 
@@ -111,7 +115,7 @@ For the development of this project I have chosen to utilise Google fonts as the
 - "Monserrat", Sans-serif; 
 - "Outift", Serif;
 
-<img width="100%" alt="typography" src="https://github.com/user-attachments/assets/a9b32530-5b1f-4e8c-ad53-02d2a76296a6"/>
+![typography used for the FWL project](documentation/readme/other-images/root-variables-fonts.png)
 
 - **Monseratte:** Has been assigned as primary font which is the main font for the body.
 - **Pacifico:** Has been used for special headings to draw attention to partocular peices of content.
@@ -141,34 +145,27 @@ Another feature the navigation bar has is the data-bs-theme="dark" to enable a b
 #### Other navigation features
 The navbar also features a hover changing the hobered nav link from it's base colour white to green (highlight color). If the nav link is in an "active" state then the link will remain red (primary colour) and the font weight will become bold when hovered upon.
 
-<details>
- <summary>Navbar Mobile</summary>
- <img width="100%" alt="navbar-collaps" src="https://github.com/user-attachments/assets/699c6e68-50dd-4b5b-a76d-21e4e09bbe54" />
-</details>
-<details>
-  <summary>Navbar Expand</summary>
-<img width="100%" alt="navbar-expand" src="https://github.com/user-attachments/assets/fa56a72f-c265-49e4-be3a-c297fe2e236b"/>
-</details>
+
+**Navigation toggle feature mobile-collaspe**
+![image of navigation toggle feature on collapse](documentation/readme/features/feature-navbar-collapse.png) 
+
+**Navigation toggle feature mobile-expand**
+![image of navigation toggle feature on expand](documentation/readme/features/feature-navigation-toggle.png) 
 
 ### Footbar
 The footbar is very clean and simple, containing only 1 heading and 3 icons. Each icon has been customised to be slightly larger than their original aspect and a different colour. They are coloured green (highlight colour) and when hovered upon they turn red (primary colour), this highlights the interactiveness the user experiences and brings life to the footbar bar.
  To enhance the users experience I have also applied the targe="_blank" attribute so when the user clicks on the icon they are taken to an external page and won't be lose their current page on the FWL website.
-<details>
-<Summary>Footer</summary>
 
-</details>
-<details>
-<Summary>Footer Hover</summary>
-
-</details>
-
+**Footer social icons**
+![image of footer](documentation/readme/features/feature-footer.png)
+**Footer social icons Hover effect**
+![image of footer with hover effect](documentation/readme/features/feature-footer-hover.png)
 ### Carousel
 FWL wanted to provide free online classes for the website visitors to help promote health and wellbeing and grow a fitness community. To maintain a minimal look across the site I decided to implement a video carousel for website users to easily browse the online classes.
 This appaoch is based on utilising iframe tags over video tags because it saves space in the developers assets folder and is faster to load in the browser.
-<img width="100%" alt="carousel-1" src="https://github.com/user-attachments/assets/a018cc08-664e-445b-a09a-c90a9637ef25" />
+![image of carousel](documentation/readme/features/feature-carousel.png)
 
-<img width="100%" alt="carousel-2" src="https://github.com/user-attachments/assets/2d7a1591-ecdd-4ce8-9359-b7352f722686" />
-
+![image of carousel](documentation/readme/features/feature-carousel3.png)
 ### Dropdowns 
 FWL provide free fitness programs and wanted this to be something that looked clean and was a simple procress for the web user. I decided to use a series of dropdown menus, setting the menu-item to an auto hight so content was presented nicely and didn't take up too much space.
 The dropdown menus are segregated into 3 blocks, each reflecting a different type of training, these are;
@@ -176,9 +173,8 @@ The dropdown menus are segregated into 3 blocks, each reflecting a different typ
 - Conditioning
 - Stretch & Mobility
 
-<img width="100%" alt="dropdown-new1" src="https://github.com/user-attachments/assets/6b3125bd-d18f-4479-8002-7918653d9ff4" />
-<img width="100%" alt="dropdown-new2" src="https://github.com/user-attachments/assets/16949a5a-5e4c-4c4d-a73b-b712160808f2" />
-
+![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown.png)
+![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown2.png)
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
@@ -203,30 +199,9 @@ Github isn't just a configuration management tool it provides a special feature 
 - **Font Awesome:** Provides scalable icons used for social media links and other design elements.
 - **Favicon Generator:** I used this online tool to create an icon that can sit in the title tabe of the web pages.
 
-#### Testing & Validation
+#### Validation testing
 **W3C Validator:** I used this online tool to validate my CSS and HTML code. It's a great tool as it higghlighted many issues I had in my code and I was able to make amendments to ensure all my code clean and valid. 
-The screenshots below show some of the errors I had and confirm that the code is validated.
-
-<details>
-  <summary>Home</summary>
-  <img width="1000" alt="home-valid" src="https://github.com/user-attachments/assets/70a3344d-e74a-429b-8ad8-e0abe5b53b4a" />
-</details>
-<details>
-  <summary>Classes</summary>
- <img width="1000" alt="classes-valid" src="https://github.com/user-attachments/assets/bb2c63af-beeb-4ee8-9d77-143b14c6ef7d" />
-</details>
-<details>
-  <summary>Nutrition</summary>
- <img width="1000" alt="nutrition-valid" src="https://github.com/user-attachments/assets/016af93d-0928-4baf-8dd7-cee604ce6d9b" />
-</details>
-<details>
-  <summary>Bookings</summary>
-<img width="1233" alt="bookings-valid" src="https://github.com/user-attachments/assets/ad301ac9-6f38-45fc-a8a7-6d7b02a6b4e1" />
-</details>
-<details>
-<summary>404</summary>
-<img width="1000" alt="Screenshot 2025-06-11 at 14 04 38" src="https://github.com/user-attachments/assets/582b4918-0586-439d-b32e-134751d02aaf" />
-</details>
+Please see the TESTING document for test results: [TESTING.md](TESTING.md)
 
 #### Other tools utlised
 
@@ -305,11 +280,16 @@ FWL would like their future website to allow users to do the following;
 - Track progress, body stats and upload befor and after pictures
 - Receive email/text reminders (depeding on the users preference) 
 
-## Referencing
+## credits/Referencing
 
 - **ChatGBT:** Stretch Goals - User stories and some of the Main User Stories
  - **Unsplash** I used this online tool for free images of juices for the juice ingredients carousel on the Nutrition page
 
- -
+ | Source | Notes |
+| --- | --- |
+| [favicon.io](https://favicon.io) | Generating the favicon |
+| [Boostrap](https://getbootstrap.com/) | Auto generated components|
+| [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
+| [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
 
 
