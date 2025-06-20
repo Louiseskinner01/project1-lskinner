@@ -1,4 +1,4 @@
-![fwl-black](https://github.com/user-attachments/assets/fccd189c-a850-4ee3-b6c5-9aa0acd4d987)
+![FWL company logo](documentation/fwl-black.png)
 
 
 # Testing methods and results
@@ -53,8 +53,8 @@ Note: All pages include the following;
 The Contact page provides a form which enables users to communicate their interests with FWL. The form is a Bootstrap component that I have slightly customermised to meet the requirements of the project. I have ensured that key input fields have a been set to required which means the user will be unable to submit the form without this infomration. Please see code example below;
 
 <details>
-    <summary>Required code example</summary>
-    <img width="1179" alt="Screenshot 2025-06-15 at 12 14 45" src="https://github.com/user-attachments/assets/49858306-36be-4dbc-a130-17bdfd371ae1" />
+    <summary>The "required" attribute</summary>
+ ![html code screenshot](documentation/testing/form-validation/code-example.png)
 </details>
 
 The Phone and Email input fields are a little more restricted as they have specific requirements. The **phone input field** will only take a number value (0-9) and the **email input field** is even more restricted as it not only ensures that the user has entered an @ symbol, it also requires the input to be constructed in a certain way, prompting the user to enter more infomration after the @ sign.
@@ -62,15 +62,18 @@ The Phone and Email input fields are a little more restricted as they have speci
 <details>
     <summary>Email validation</summary>
 
-   <img width="1280" alt="form-email1" src="https://github.com/user-attachments/assets/905b346f-4c2e-4c5c-8219-e0ea26a06280" />
+ ![email validatiton1](documentation/testing/form-validation/email-validation.png)
 
-<img width="1280" alt="form-email2" src="https://github.com/user-attachments/assets/dd69e986-fb7a-4964-a80d-867edacc4d18" />
+ ![email validatiton2](documentation/testing/form-validation/email-validation2.png)
+
 </details>
 
 <details>
     <summary>Form submitted</summary>
- <img width="1280" alt="form-confirmed" src="https://github.com/user-attachments/assets/af0c586d-1483-4c6a-88a0-60a7d97ff9aa" />
+![form-submitted](documentation/testing/form-validation/form-submitted.png)</details>
+
 </details>
+
 
 
 ### Carousels and Dropdowns
