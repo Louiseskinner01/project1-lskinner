@@ -50,48 +50,23 @@ To access free content hosted on the FWL website simply click the link below or 
 
 ### Skeleton
 #### Wireframes
-##### Mobile
+##### Home page
+ ![Home-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-home-page.png)
+##### Classes page
+ ![Classes-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-classes-page.png)
+##### Nutrition page
+ ![Nutrition-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-nutrition-page.png)
 
-**Home page**
-  ![wireframe mobile-home](documentation/readme/wireframes/mobile/404error-page.jpg)
-- **Classes page**
-  ![wireframe mobile-classes](documentation/readme/wireframes/mobile/classes-page.jpg)
-- **Nutrition page**
-  ![wireframe mobile-nutrition](documentation/readme/wireframes/mobile/nutrition-page.jpg)
-- **Contact page** 
-  ![wireframe mobile-contact](documentation/readme/wireframes/mobile/contact-page.jpg)
-- **Confirmation page**
-  ![wireframe mobile-confirmation](documentation/readme/wireframes/mobile/confirmation-page.jpg)
-- **404 Error page**
- ![wireframe mobile-404error](documentation/readme/wireframes/mobile/404error-page.jpg)
+##### Contact page
+ ![Contact-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-contact-page.png)
 
- ##### Tablet
-- **Home page**
-![wireframe tablet-](documentation/readme/wireframes/tablet/home-page.jpg)
-- **Classes page**
-![wireframe tablet-](documentation/readme/wireframes/tablet/classes-page.jpg)
-- **Nutrition page**
-![wireframe tablet-](documentation/readme/wireframes/tablet/nutrition-page.jpg)
-- **Contact page**
-![wireframe tablet-](documentation/readme/wireframes/tablet/contact-page.jpg)
-- **404 Error page**
-![wireframe tablet-404error](documentation/readme/wireframes/tablet/404-page.jpg)
-- **Confirmation page**
-![wireframe tablet-](documentation/readme/wireframes/tablet/confirmation-page.jpg)
+##### Confirmation page
+ ![Confirmation-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-confirmation-page.png)
 
-##### Laptop
-- **Home page**
-![wireframe laptop-](documentation/readme/wireframes/laptop/home-page.jpg)
-- **Classes page**
-![wireframe laptop-](documentation/readme/wireframes/laptop/classes-page.jpg)
-- **Nutrition page**
-![wireframe laptop-](documentation/readme/wireframes/laptop/nutrition-pages.jpg)
-- **Contact page**
-![wireframe laptop-](documentation/readme/wireframes/laptop/contact-page.jpg)
-- **404 Error page**
-![wireframe laptop-404error](documentation/readme/wireframes/laptop/404-page.jpg)
-- **Confirmation page**
-![wireframe laptop-](documentation/readme/wireframes/laptop/confirmation-page.jpg)
+##### 404 Error page
+ ![404Error-page wireframes for mobile, laptop and desktop](documentation/readme/wireframes/wireframes-404error-page.png)
+
+
 
 ### Surface
 #### Colour-scheme
@@ -169,13 +144,8 @@ The dropdown menus are segregated into 3 blocks, each reflecting a different typ
 - Conditioning
 - Stretch & Mobility
 
-<details><summary>Home page</summary>
-
-  ![wireframe mobile-home](documentation/readme/features/feature-dropdown.1png)
-
-</details>
-
 ![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown.1png)
+
 ![image of dropdown menu from the classses page](documentation/readme/features/feature-dropdown2.png)
 ## Testing
 The FWL website has been put through a serious of vigourus testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
