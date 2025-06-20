@@ -2,20 +2,6 @@
 
 
 # Testing methods and results
-## Table Of Contents
-
-1. [Manual Testing](#manual-testing)
-    - [User Stories](#user-stories)
-    - [Links and Buttons](#links-and-buttons)
-    - [Hover and Active State](#hover-and-active-state)
-    - [Form Validation](#form-validation)
-    - [Carousels and Dropdowns](#carousels-and-dropdowns)
-    - [Responsiveness](#responsiveness)
-2. [Lighthouse Performance Testing](#lighthouse-performance-testing)
-3. [Validation Testing](#validation-testing)
-4. [Broswer Compatibility Testing](#browser-compatibility-testing)
-
-
 ## Manual Testing
 ### User Stories
   
@@ -43,17 +29,15 @@ Note: All pages include the following;
 - Confirmation
 - 404 Error
   
-| **Link/Btn Location**                                                                    | **Expected result**                                                                                                 | **Pass or Fail** |
+| **Link/Btn Location**      | **Expected result**   | **Pass or Fail** |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------- |
-| Navigation links - All pages                                             |  Each link should take the user to a specific webpage                                                                                                                       | Pass  |
+| Navigation links - All page |  Each link should take the user to a specific webpage      | Pass  |
 | Register buttons x6 - Home page  | Each register btn should take the user the bookings page where they will fill out a contact form                     | Pass  |
 | Footer links - ALL pages                                                        | Each icon in the footer will link the user to a specific social media page depending on the icon clicked. The user should be taken to an external page so they don't lose their current page on the FWL website.                                                                                                                      | Pass |
 | FWL Branding Logo - All pages        | The company logo is used to drive more users to the contact form so FWL can capture their data abd grow their database.                                 | Pass  |
 |Contact form submit bottun - Contact page | This button should submit all of the data that has been inserted into the contact form|   Pass |
 |Home button - 404Error page | This button should take the user back to the home page|   Pass   |
 | Home button - Confirmation page| This button should take the user back to the home page| Pass     |
-
-
 
 
 ### Hover and Active State
@@ -92,7 +76,8 @@ The Phone and Email input fields are a little more restricted as they have speci
 ### Carousels and Dropdowns
 - There are x2 carousels in the FWL website, one containing iframes to share fitness content and the other contains images and listed ingredients. Both carousels have been tested and are working as expected.
 - There are x12 dropdown menus on the classes page, each dropdown should open up and present the user with a class fitness program for the user to follow. All dropdown elements have been tested and are working correctly.
-
+![](documentation/readme/features/feature-carousel.png)
+![](documentation/readme/features/feature-carousel3.png)
 ### Responsiveness
 
 Throughout the development of this project I have utilised the tools and features in Google Chrome Developer specifically when **responsiveness** has been the focus. I followed a "mobile first" apraoch whcih meant the devloper tool was perfect as it enabled me to view each page of the site from different screen dimentions. The main dimentions I gave attention to were Mobile, Tablet, Laptop and Desktop. Note: The following screen shots are different responses of the home page which are based off of the Google Chrome Deveoper tool.
