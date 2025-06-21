@@ -116,8 +116,16 @@ Throughout the development of this project I have utilised the tools and feature
 
 <details>
 <Summary>Tablet</summary>
-  
-  ![mobile-home1](documentation/testing/responsiveness/tablet/home-card-footer.png)
+
+![footer](documentation/testing/responsiveness/tablet/home-card-footer.png)
+  <br>
+
+  ![classes page](documentation/testing/responsiveness/tablet/tablet-classes.png)
+   <br>
+
+  ![home page](documentation/testing/responsiveness/tablet/tablet-home.png)
+   <br>
+  ![nutrition page](documentation/testing/responsiveness/tablet/tablet-nutrition.png)
   
 </details>
 
