@@ -15,7 +15,8 @@
 }
 
 html, body {
-    height: 100vh;
+    min-height: 100vh;
+
 }
 
 body {
@@ -25,10 +26,8 @@ body {
     font-family: var(--primary-font);
 }
 
-Body > footer {
-    Position: sticky;
-    Top: vh;
-    }
+
+
 
 h1,
 h2,
@@ -60,6 +59,7 @@ li {
 .white-space {
     margin-bottom: 9rem;
 }
+
 
 .fwl-bg-color {
     background-color: var(--bs-dark);

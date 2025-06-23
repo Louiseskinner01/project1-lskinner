@@ -224,7 +224,7 @@ I followed the same approach for the rest of the web pages until the performance
 <details>
 <Summary>Classes page</summary>
   
-![Classes page](documentation/testing/lighthouse-performance/classes-75percent.png)
+![Classes page](documentation/testing/lighthouse-performance/classes-85percent.png)
 
 </details>
 
