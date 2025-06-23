@@ -231,7 +231,7 @@ I followed the same approach for the rest of the web pages until the performance
 <details>
 <Summary>Nutrition page</summary>
   
-![Nutrition page](documentation/testing/lighthouse-performance/nutrition.png)
+![Nutrition page](documentation/testing/lighthouse-performance/nutrition-97percent.png)
 
 </details>
 
