@@ -366,6 +366,7 @@ caption {
     }
 }
 
+/*To increase the header and font on the confirmation page, making it look aesthetically better on larger screens*/
 @media (min-width: 1024px) {
     #confirmation-header {
         font-size: 6em;

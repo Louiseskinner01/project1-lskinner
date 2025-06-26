@@ -309,7 +309,7 @@ FWL would like their future website to allow users to do the following;
  | Source | Notes |
 | --- | --- |
 | [favicon.io](https://favicon.io) | Generating the favicon |
-| [Boostrap](https://getbootstrap.com/) | Auto generated components|
+| [Bootstrap](https://getbootstrap.com/) | Auto generated components|
 | [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
 | [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
 | [ChatGBT](https://chatgpt.com/) | AI tool to generate written content for the site|

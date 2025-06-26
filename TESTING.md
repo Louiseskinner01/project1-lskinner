@@ -2,6 +2,7 @@
 
 
 # Testing methods and results
+
 ## Manual Testing
 ### User Stories
   
@@ -59,7 +60,7 @@ The Contact page provides a form which enables users to communicate their intere
   ![html code screenshot](documentation/testing/form-validation/code-example.png)
 </details>
 
-The Phone and Email input fields are a little more restricted as they have specific requirements. The **phone input field** will only take a number value (0-9) and the **email input field** is even more restricted as it not only ensures that the user has entered an @ symbol, it also requires the input to be constructed in a certain way, prompting the user to enter more infomration after the @ sign.
+The Phone and Email input fields are a little more restricted as they have specific requirements. The **phone input field** will only take a number datatype and the **email input field** is even more restricted as it not only ensures that the user has entered an @ symbol, but also requires the input to be constructed in a certain way, prompting the user to enter more infomration after the @ sign.
 
 <details>
     <summary>Email validation</summary>
@@ -91,7 +92,7 @@ The Phone and Email input fields are a little more restricted as they have speci
  
 ### Responsiveness
 
-Throughout the development of this project I have utilised the tools and features in Google Chrome Developer specifically when **responsiveness** has been the focus. For the development of this project I followed a "mobile first" approach, finding the developer tools very effective for responsive styling and trouble shooting. It allowed me to view each html page from different screen dimensions such as Mobile, Tablet, Laptop and Desktop. Note: The following screen shots are different responses of the home page which are based off of the Google Chrome developer tool.
+Throughout the development of this project I have utilised the tools and features in Google Chrome Developer specifically when **responsiveness** has been the focus. For the development of this project I followed a "mobile first" approach, finding the Chrome developer tool very effective for responsive styling and trouble shooting. It enabled me to view each html page from different screen dimensions such as Mobile, Tablet, Laptop and Desktop. Note: The following screen shots are different responses of the home page which are based off of the Google Chrome developer tool.
 
 #### Chrome Developer Responsive Designs
 <details>
@@ -174,10 +175,6 @@ During the development of this project I used my mobile device to check frequent
 ![mobile-nutrition1](documentation/testing/responsiveness/mobile-device/nutrition1.png) 
 ![mobile-nutrition2](documentation/testing/responsiveness/mobile-device/nutrition2.png) 
 ![mobile-nutrition3](documentation/testing/responsiveness/mobile-device/nutrition3.png)
-  
-  
-     
-  
      
 </details>
 
@@ -193,6 +190,8 @@ During the development of this project I used my mobile device to check frequent
   ![mobile-confirmation](documentation/testing/responsiveness/mobile-device/confirmation.png)
 
 </details>
+
+--- 
 
 ## Lighthouse Performance Testing
 I used the Google Chrome development tools to develop and test each page within the FWL project, this is due to is expansive features including the Lighthouse Performance tool.
@@ -256,6 +255,7 @@ I followed the same approach for the rest of the web pages until the performance
 
 </details>
 
+---
 
 ## Validation Testing
 ### HTML Files
@@ -302,6 +302,8 @@ I followed the same approach for the rest of the web pages until the performance
       
   ![](documentation/readme/validations/css-validation.png)
 </details>
+
+---
 
 ## Browser Compatibility Testing
 All links, carousels, dropdown menus and responsive settings have been tested, resulting in the FWL website being compatible across the following three browsers. 
