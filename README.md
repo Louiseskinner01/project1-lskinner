@@ -220,7 +220,7 @@ The FWL website has been put through a serious of vigorous testing methods to en
 | [Unsplash](https://unsplash.com/) | This website provides high quality pictures. I utilised this tool for add images of juices to the carousel on the nutrition page. |
 
 #### Validation testing
-**W3C Validator:** I used this online tool to validate my CSS and HTML code. It's a great tool as it higghlighted many issues I had in my code and I was able to make amendments to ensure all my code clean and valid. 
+**W3C Validator:** I used this online tool to validate my CSS and HTML code. It's a great tool as it highlighted many issues I had in my code and I was able to make the necessary amendments to ensure all my code was clean and valid. 
 Please see the TESTING document for test results: [TESTING.md](TESTING.md)
 
 #### Other tools utilised

@@ -57,7 +57,7 @@ The Contact page provides a form which enables users to communicate their intere
 <details>
     <summary>The "required" attribute</summary>
  
-  ![html code screenshot](documentation/testing/form-validation/code-example.png)
+  ![html code screenshot](documentation/testing/form-validation/form-validation.png)
 </details>
 
 The Phone and Email input fields are a little more restricted as they have specific requirements. The **phone input field** will only take a number datatype and the **email input field** is even more restricted as it not only ensures that the user has entered an @ symbol, but also requires the input to be constructed in a certain way, prompting the user to enter more infomration after the @ sign.
