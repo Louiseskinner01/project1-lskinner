@@ -313,7 +313,7 @@ The contact form should only submit information once the user has complete ALL r
 - Email address
 - Reason for contact
 
-However the fuser can submit the form even without selecting a "reason for contact".
+However the user can submit the form even without selecting a "reason for contact".
 
 ---
 ## Credits/Referencing
