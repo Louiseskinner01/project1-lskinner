@@ -1,8 +1,6 @@
  ![FWL Logo](documentation/fwl-black.png)
 # FWL online fitness classes and nutritional advice
 
----
-
 ## About
 FWL (Fitness with Louise) is a company offering free online fitness classes and nutritional advice via their newly built website. Theyr'e targeting those who want to improve their health and wellbeing and build their inner confidence, as they strongly believe they have the right coaches to deliver high energy and top quality online classes. Besides free classes, FWL provide other services such as online 1-to-1 personal training sessions and health and fitness events, both in the UK and abroad.
 The FWL website offers a clean and simple aesthetic, using the FWL company colours as a base for the colour scheme. Visitors to the site can expect a great user experience as they can easily navigate their way through the website using links (internal and external), animated buttons and social icons, and carousels and dropdown menus. 
@@ -205,16 +203,21 @@ The FWL website has been put through a serious of vigorous testing methods to en
 ### Tools
 #### Development Tools
 
-- **GitHub:** I have used Github as it supports version control by tracking all changes made throughout the development of the project. Github provides many features that have helped with the development of the FWL website such as project board that can be utilised as a project management tool allowing developers to create milestones and label them with priority tags. It offers stages of development such as to do, in progress and done (completed).
-Github isn't just a configuration management tool it provides a special feature than allows developers to deploy their project so they are hosted live. This feature is perfect as developers can share their work with peers and future employers with just one simple link.
-- **Visual Studio Code:** I downloaded and installed Visual Studio Code which is an IDE (Intergrated Development Environment), this was for the purpose of coding my HTML and CSS docs. VS Code is very useful for developers as it connects directly to my Github repository making commits a simple process.
-- **Chrome Developer Tools:** I utilised Chrome developer to design the FWL website using a "mobile first" approach. The deveopment tool enabled me to view the web pages using different screen sizes which helped me to make a responsive website. I aso used the tool to inspect elements so I could see what elements were causing unwanted effects across the site.
-#### Design & UI
-- **Balsamiq Wireframes:** I used this online tool to create wireframes for each page oof the site. A wireframe has also been created for mobile, tablet and laptop screen sizes.
-- **Google Fonts:** I have imported 3 different Google font styles into my CSS file to style the FWL website, helping to draw attention to specific content areas.
-- **Font Awesome:** Provides scalable icons used for social media links and other design elements.
- **Favcon Converter:** I used an online converter to make the FWL company logo into a favcon so the logo would be visible in the browser tab.
- - **Unsplash:** This website provides high quality pictures. I utilised this tool for add images of juices to the carousel on the nutrition page.
+ | Source | Notes |
+| --- | --- |
+| [Github](https://github.com) | I have used Github as it supports version control by tracking all changes made throughout the development of the project. Github provides many features that have helped with the development of the FWL website such as project board that can be utilised as a project management tool allowing developers to create milestones and label them with priority tags. It offers stages of development such as to do, in progress and done (completed). Github isn't just a configuration management tool it provides a special feature than allows developers to deploy their project so they are hosted live. This feature is perfect as developers can share their work with peers and future employers with just one simple link. |
+| [Visual-Studio-Code](https://code.visualstudio.com/) | I downloaded and installed Visual Studio Code which is an IDE (Intergrated Development Environment), this was for the purpose of coding my HTML and CSS docs. VS Code is very useful for developers as it connects directly to my Github repository making commits a simple process. |
+| [Chrome-Developer-Tools](https://developer.chrome.com/) | I utilised Chrome developer to design the FWL website using a "mobile first" approach. The deveopment tool enabled me to view the web pages using different screen sizes which helped me to make a responsive website. I aso used the tool to inspect elements so I could see what elements were causing unwanted effects across the site. |
+
+#### Design & UI Tools
+
+ | Source | Notes |
+| --- | --- |
+| [Balsamiq-Wireframes](https://balsamiq.com/) | I used this online tool to create wireframes for each page oof the site. A wireframe has also been created for mobile, tablet and laptop screen sizes. |
+| [Google-Fonts](https://fonts.google.com/) | I have imported 3 different Google font styles into my CSS file to style the FWL website, helping to draw attention to specific content areas. |
+| [Font Awesome](https://fontawesome.com/) | Provides scalable icons used for social media links and other design elements.|
+| [Favcon-Converter](https://favicon.io/favicon-converter/) | I used an online converter to make the FWL company logo into a favcon so the logo would be visible in the browser tab. |
+| [Unsplash](https://unsplash.com/) | This website provides high quality pictures. I utilised this tool for add images of juices to the carousel on the nutrition page. |
 
 #### Validation testing
 **W3C Validator:** I used this online tool to validate my CSS and HTML code. It's a great tool as it higghlighted many issues I had in my code and I was able to make amendments to ensure all my code clean and valid. 
@@ -303,7 +306,16 @@ FWL would like their future website to allow users to do the following;
 - Receive email/text reminders (depending on the users preference)
   
 ---
+## Bugs
+The contact form should only submit information once the user has complete ALL required fields, these are;
+- Full name
+- Phone number
+- Email address
+- Reason for contact
 
+However the fuser can submit the form even without selecting a "reason for contact".
+
+---
 ## Credits/Referencing
 
  | Source | Notes |

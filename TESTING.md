@@ -1,7 +1,7 @@
 ![FWL company logo](documentation/fwl-black.png)
 
 
-# Testing methods and results
+# Testing Methods & Results
 
 ## Manual Testing
 ### User Stories
@@ -21,7 +21,7 @@ t audience get fitter, healthier and more confident.   |
 |As a user, I would like to easily find and follow FWL on all of their social media platforms | Y|  Across every page of the FWL website is a footer which contains x3 icons, each representing the social media handles owned by FWL (Facebook, Instagram and X). The user can click on any icon and will be taken to the FWL social page using an external method.    |
 
 
-### Links and Buttons
+### Links & Buttons
 
 Note: All pages include the following;
 - Home (index.html)
@@ -42,7 +42,7 @@ Note: All pages include the following;
 | Home button - Confirmation page| This button should take the user back to the home page| Pass     |
 
 
-### Hover and Active State
+### Hover & Active State
 | **Hover/Active Elements**                                                                    | **Expected result**                                                                                                 | **Pass or Fail** |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------- |
 | Navigation links - Hover                                             |  When a user hovers over a link in the navigation bar it should change colour from white to green (highlight-color) unless the link is in its active state, then the colour will be red (primary-color)                                                                                                                       | Pass  |
@@ -80,7 +80,7 @@ The Phone and Email input fields are a little more restricted as they have speci
 
 
 
-### Carousels and Dropdowns
+### Carousels & Dropdowns
 - There are x2 carousels in the FWL website, one containing iframes to share fitness content and the other contains images and listed ingredients. Both carousels have been tested and are working as expected.
 - There are x12 dropdown menus on the classes page, each dropdown should open up and present the user with a training program for the user to follow. All dropdown elements have been tested and are working correctly.
 
