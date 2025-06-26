@@ -1,8 +1,8 @@
-/* Google font imported to apply the following fonts: montserrat, Outfit and Pacifico*/
+/* Imported fonts from Google to apply the following font styles: Montserrat, Outfit and Pacifico*/
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-/* CSS Variables */
+/*CSS Variables*/
 :root {
     --bs-dark: #212529;
     --header-font: "Pacifico", cursive;
@@ -14,8 +14,9 @@
     --booking-button-color: rgba(52, 92, 10, 0.739);
 }
 
-html, body {
-    min-height: 100vh;
+html,
+body {
+    height: 100%;
 
 }
 
@@ -26,31 +27,31 @@ body {
     font-family: var(--primary-font);
 }
 
-
-
+body>footer {
+    position: sticky;
+    top: 100vh;
+}
 
 h1,
 h2,
-h3
-{
+h3 {
     padding: 5px 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--primary-font);
 }
 
-h6, h3{
+h6,
+h3 {
     font-family: var(--secondary-font);
 }
 
+image,
 iframe {
     width: 100%
- } 
-
-image {
-    width: 100%
- }
+}
 
 li {
     list-style-type: none;
@@ -60,49 +61,29 @@ li {
     margin-bottom: 9rem;
 }
 
-
 .fwl-bg-color {
     background-color: var(--bs-dark);
 }
 
 .fwl-primary {
-   background-color: var(--primary-color); 
-   color: whitesmoke;
+    background-color: var(--primary-color);
+    color: whitesmoke;
 }
 
 .fwl-secondary {
-    background-color: var(--secondary-color);  
- }
+    background-color: var(--secondary-color);
+}
 
 .fwl-highlight {
     color: var(--bs-dark);
-    background-color: var(--highlight-color);  
- }
+    background-color: var(--highlight-color);
+}
 
 .fwl-booking {
     color: var(--booking-button-color);
- }
-
-div .carousel-item ul,  div .carousel-item  h6{
-    color: white;
-    font-family: var(--primary-font);
-    font-size: 120%;
-    font-weight: 100;
-    letter-spacing: 2px;
 }
 
-div .carousel-item  h6 {
-    padding-top: 12px;
-    font-size: 150%;
-}
-
-carousel {
-    display: flex;
-    justify-content: center;
-}
-
- /* Index Styling*/
-/* Navbar */
+/*Navbar Styling */
 a.nav-link {
     color: white;
     font-size: 130%;
@@ -114,7 +95,7 @@ a.nav-link:hover {
 }
 
 .active {
-    color: var(--primary-color)!important;
+    color: var(--primary-color) !important;
     padding: 0;
 }
 
@@ -127,45 +108,75 @@ a.nav-link:hover {
     height: 100px;
 }
 
-/* Events */
-#journey-header, #juices-header, #events-header, #classes-header, #nutrition-header, #tips-header{
+/*Footer Styling
+.footer-bottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 51%;
+}
+*/
+
+div .carousel-item ul,
+div .carousel-item h6 {
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 120%;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+div .carousel-item h6 {
+    padding-top: 12px;
+    font-size: 150%;
+}
+
+carousel {
+    display: flex;
+    justify-content: center;
+}
+
+/*Index.html Styling*/
+#journey-header,
+#juices-header,
+#events-header,
+#classes-header,
+#nutrition-header,
+#tips-header {
     color: var(--secondary-color);
-    font-family: var( --header-font);
+    font-family: var(--header-font);
     font-size: 50px;
     padding: 10px 5px 0 5px;
 }
 
-.card img{
+.card img {
     Max-height: 220px;
     Object-fit: contain;
-    }
+}
 
 .card-hover:hover {
-    border-color: var(--highlight-color);   
+    border-color: var(--highlight-color);
 }
 
 .card-footer a {
-  background-color: var(--booking-button-color); 
-  border-radius: 5px;
-  color: white;
-  height: 40px;
-  width: 90px;
-  display: flex;  
-  padding-top: 8px;
-  padding-left: 1em;
-  margin: 1px;
-  text-decoration: none;
-  display: flex;
-  justify-self: right;
+    background-color: var(--booking-button-color);
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 90px;
+    display: flex;
+    padding-top: 8px;
+    padding-left: 1em;
+    margin: 1px;
+    text-decoration: none;
+    display: flex;
+    justify-self: right;
 }
 
 .card-footer a:hover {
-    background-color: var(--highlight-color); 
+    background-color: var(--highlight-color);
     color: black;
-  }
-
-
-/* Footbar styling */
+}
 
 #footer-heading {
     color: white;
@@ -182,7 +193,7 @@ i:hover {
     color: var(--primary-color);
 }
 
-
+/*Nutrition.html styling*/
 section {
     padding: 2px 20px;
     margin-bottom: 15px;
@@ -195,7 +206,6 @@ section {
     padding: 2px 10px;
     list-style-type: none;
 }
-
 
 #minerals-row {
     margin-bottom: 30px;
@@ -210,12 +220,10 @@ caption {
     padding-bottom: 12px;
 }
 
-
-
-/* Classes Styling */
+/* Classes.html Styling */
 #pt-button {
     background-color: var(--primary-color);
-    border-radius: 5px;  
+    border-radius: 5px;
     color: white;
     height: 60px;
     width: 160px;
@@ -224,6 +232,7 @@ caption {
     right: 0;
     margin-right: 0.5em;
 }
+
 #pt-button:hover {
     background-color: var(--highlight-color);
 }
@@ -232,9 +241,11 @@ caption {
     background-color: var(--primary-color);
     color: whitesmoke;
 }
+
 .dropdown .conditioning {
     background-color: var(--secondary-color);
 }
+
 .dropdown .core {
     background-color: var(--highlight-color);
 }
@@ -246,25 +257,25 @@ caption {
 }
 
 .dropdown span {
-padding: 5px;
-font-family: var(--secondary-font);
+    padding: 5px;
+    font-family: var(--secondary-font);
 }
 
-
-    /* Booking-form Styling */
+/* Booking-form.html Styling */
 #text-area-span {
     display: flex;
     justify-content: center;
     font-size: 12px;
-   
+
 }
+
 #bookings-button {
     background-color: var(--booking-button-color);
-    border-radius: 5px;  
+    border-radius: 5px;
     color: white;
     font-size: 20px;
     height: 60px;
-    width: 160px;   
+    width: 160px;
     text-decoration: none;
     padding-top: 5px;
     border: white;
@@ -272,19 +283,25 @@ font-family: var(--secondary-font);
 
 #bookings-button:hover {
     background-color: var(--highlight-color);
-    border-radius: 5px;  
+    border-radius: 5px;
     color: black;
     border: black;
-  }
-/* Confirmation page styling*/
-#confirmation-header {
-font-family: var(--secondary-font);
-color: var(--highlight-color);
 }
 
-#confirmation-page-btn{
+/* Confirmation.html Styling*/
+#confirmation-header {
+    font-family: var(--secondary-font);
+    color: var(--highlight-color);
+    font-size: 5em;
+}
+
+#confirmation-p {
+    font-size: 2.5em;
+}
+
+#confirmation-page-btn {
     background-color: var(--booking-button-color);
-    border-radius: 5px;  
+    border-radius: 5px;
     color: white;
     height: 60px;
     width: 160px;
@@ -293,21 +310,22 @@ color: var(--highlight-color);
     display: flex;
     margin: 10% auto;
     padding-top: 5px;
-  }
-  
-#confirmation-page-btn:hover {
-      background-color: var(--highlight-color);
-      border-radius: 5px;  
-      color: black;
-      border: black;
-    }
+}
 
-/* 404 */
+#confirmation-page-btn:hover {
+    background-color: var(--highlight-color);
+    border-radius: 5px;
+    color: black;
+    border: black;
+}
+
+/*404 Styling*/
 #four-span {
     color: red;
     font-size: 10em;
     font-family: var(--secondary-font);
 }
+
 #four-p {
     font-size: 2em;
     margin: auto;
@@ -316,7 +334,7 @@ color: var(--highlight-color);
 
 #four-home-btn {
     background-color: var(--booking-button-color);
-    border-radius: 5px;  
+    border-radius: 5px;
     color: white;
     height: 60px;
     width: 160px;
@@ -325,18 +343,37 @@ color: var(--highlight-color);
     display: flex;
     margin: 10% auto;
     padding-top: 15px;
-    }
+}
 
 #four-home-btn:hover {
     background-color: var(--highlight-color);
-    border-radius: 5px;  
+    border-radius: 5px;
     color: black;
     border-color: black;
 }
 
+/*Other styling*/
+.container-m {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/*Media Queries*/
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     .fwl-bg-color {
         background-color: var(--bs-dark);
     }
+}
+
+@media (min-width: 1024px) {
+    #confirmation-header {
+        font-size: 6em;
+        margin-top: 10%;
+    }
+
+    #confirmation-p {
+        font-size: 3em;
+    }
+
 }

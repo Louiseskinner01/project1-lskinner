@@ -1,5 +1,8 @@
  ![FWL Logo](documentation/fwl-black.png)
 # FWL online fitness classes and nutritional advice
+
+---
+
 ## About
 FWL (Fitness with Louise) is a company offering free online fitness classes and nutritional advice via their newly built website. Theyr'e targeting those who want to improve their health and wellbeing and build their inner confidence, as they strongly believe they have the right coaches to deliver high energy and top quality online classes. Besides free classes, FWL provide other services such as online 1-to-1 personal training sessions and health and fitness events, both in the UK and abroad.
 The FWL website offers a clean and simple aesthetic, using the FWL company colours as a base for the colour scheme. Visitors to the site can expect a great user experience as they can easily navigate their way through the website using links (internal and external), animated buttons and social icons, and carousels and dropdown menus. 
@@ -8,12 +11,18 @@ The FWL website offers a clean and simple aesthetic, using the FWL company colou
 To access free content hosted on the FWL website simply click the link below or copy and past it into your browser.
 
 [View Live Site.](https://louiseskinner01.github.io/project1-lskinner/) Hosted on GitHub Pages.
+
+---
+
 ## Key Features
 - **Home page:** Presents the user with motivational and encouraging content, it also presents a range of Bootstrap cards that host the FWL fitness events. Users can register for the event by clicking on the register button, linking them through to the contact form where they will enter their personal information.
 - **Classes page:** Presents the user with a carousel of fitness videos. The user can also choose from a range a fitness programs and utilise the tips and techniques listed.
 - **Contact page:** Presents the user with a booking form that ensures the users input is validated before it can be submitted (ficticiusly), using the submit button.
 - **Nutrition page:** Offers the user nutritional advice and a carousel of Juice ingredients.
 - **404 Error page:** FWL have a personalised 404 error page, this will be deployed if there is an error loading a page. The 404 error page has a button that the user can click to take them back to the home page.
+
+---
+
 ## UX Design
 ### Strategy
 **Purpose**
@@ -110,6 +119,7 @@ For the development of this project I have chosen to utilise Google fonts as the
 - **Pacifico:** Has been used for special headings to draw attention to partocular peices of content.
 - **Outfit:** Has been assigned as a secondary font for all other content.
 
+---
 
 ## User-stories
 
@@ -125,6 +135,7 @@ For the development of this project I have chosen to utilise Google fonts as the
 - As a user, I would like to easily find and follow FWL on all of their social media platforms
 - As a user, I would like to be kept up to date with the latest health and fitness trends
 
+---
 
 ## Features
 ### Navigation
@@ -141,17 +152,18 @@ The navbar also features a hover changing the hovered nav link from its base col
 **Navigation toggle feature mobile-expand**
 ![image of navigation toggle feature on expand](documentation/readme/features/feature-navigation-toggle.png) 
 
-### Footber
-The footber is very clean and simple, containing only 1 heading and 3 icons. Each icon has been customised to be slightly larger than their original aspect and a different colour. They are coloured green (highlight colour) and when hovered upon they turn red (primary colour), this highlights the interactiveness the user experiences and brings life to the footer.
- To enhance the users experience I have also applied the target="_blank" attribute so when the user clicks on the icon they are taken to an external page and won't lose their current page on the FWL website.
+### Footer
+The footer is clean and simplistic, containing only 1 heading and 3 icons. Each icon has been customised to be slightly larger than it's original aspect and differing in colour. The icons are coloured green (highlight colour) and when hovered upon they turn red (primary colour), this offers an interactive experience for the user and brings life to the footer.
+ To enhance the users experience I have also applied the target="_blank" attribute to the icons so when the user clicks on the icon they are taken to an external page and won't lose their current page on the FWL website.
 
 **Footer social icons**
 ![image of footer](documentation/readme/features/feature-footer.png)
-**Footer social icons Hover effect**
+**Footer social icons - Hover effect**
 ![image of footer with hover effect](documentation/readme/features/feature-footer-hover.png)
-### Carousel
-FWL wanted to provide free online classes for the website visitors to help promote health and wellbeing and grow a fitness community. To maintain a minimal look across the site I decided to implement a video carousel for website users to easily browse the online classes.
-This appoach is based on utilising iframe tags over video tags because it saves space in the developers assets folder and is faster to load in the browser.
+### Carousels
+FWL wanted to provide free online classes for the website visitors to help promote health and wellbeing and grow a fitness community. To maintain a minimal look across the site I decided to implement a video carousel for users to easily browse through the online classes.
+This appoach is based on utilising iframe tags over video tags because it saves space in the developers assets folder, to further enhance the performace of loading I added the lazy-loading attribute to each iframe. 
+
 ![image of carousel](documentation/readme/features/feature-carousel1.png)
 
 ![image of carousel](documentation/readme/features/feature-carousel2.png)
@@ -174,9 +186,13 @@ The dropdown menus are segregated into 3 blocks, each reflecting a different typ
 
 </details>
 
+---
+
 ## Testing
 The FWL website has been put through a serious of vigorous testing methods to ensure that the site is responsive on mobile, tablet, laptop and desktop screens. Methods of testing include utilising the lighthouse feature on Chrome development tools, manual testing all links, buttons and dropdowns features, and validating html and css code through online validation tools. To see the testing process and results in more detail please click the link below.
  [TESTING.md](TESTING.md)
+ 
+---
 
 ## Technologies
 ### Languages
@@ -184,7 +200,7 @@ The FWL website has been put through a serious of vigorous testing methods to en
 - CSS
 -Javascript (Most of the Bootstrap components I have used are Javascript dependant. I have included the Bootstrap javascript tags in my HTML documents to support these features)
 ### Frameworks
-- **Bootstrap:** I utilised Bootstrap version so I could develop the FWL website to be responsive, accessible and inline with web developement trends. Boostrap offers a range of components to allow for a faster development and a modern result.
+- **Bootstrap:** I utilised Bootstrap version 5 so I could develop the FWL website to be responsive, accessible and inline with the latest web developement trends. Boostrap offers a range of components to allow for a faster development and a modern result.
 
 ### Tools
 #### Development Tools
@@ -209,6 +225,9 @@ Please see the TESTING document for test results: [TESTING.md](TESTING.md)
 - **Notepad:** I utilised notepad to write my content and program ideas.
 - **TinyPNG:** I utilised TinyPNG to make my image sizes smaller as they were too large and causing the FWL webpages to load at a slow pace, this in turn was causing my Lighthouse testing result to be poor.
 - **MS Word:** I used Microsoft Word for proof reading written content.
+
+---
+
 ## Deployment
 ### GitHub Pages
 
@@ -253,6 +272,8 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 2. At the top of the Repository, just below the "Settings" button on the menu, locate and click the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
+---
+
 ## Stretch Goals
 ### For the site
 Responsive Design Enhancements – Optimise the site for tablets and large displays (beyond mobile responsiveness).
@@ -265,10 +286,11 @@ Accessibility Improvements – Implement ARIA roles and improve keyboard navigat
 - As a user, I want email or app reminders for my workouts so that I stay consistent with my routine.
 - As a user, I need the option to pay for products/services using methods such as debit/credit, klarna, or paypal.
 
+---
 
 ## Future Enhancements 
-FWL wanted a simple, static website so they could share their content to the health and fitness community, and by doing so they hope to grow their online presence across all platforms (internet and social).
-Beyond this FWL would like to further expand their portfolio by offering more services and products such as branded merchandise and fitness equipment, and they would also like for their clients to be able to purchase their services and products online. This means FWL would require a dynamic website that can support payment transactions and online booking/scheduling. 
+FWL wanted a simple, static website so they could share their content to an online community of health and fitness like minded people, and by doing so they hope to grow their online presence across all platforms (internet and social).
+Beyond this, FWL would like to further expand their portfolio by offering more services and products such as branded merchandise and fitness equipment, and they would also like for their clients to be able to purchase their services and products online. This means FWL would require a dynamic website that can support payment transactions and online booking/scheduling. 
 
 FWL would like their future website to allow users to do the following;
 
@@ -278,12 +300,11 @@ FWL would like their future website to allow users to do the following;
 - Book sessions online using a real-time calendar showing the availability of FWL and the fitness team
 - Log into an online portal where the user will have a live online personal training session
 - Track progress, body stats and upload before and after pictures
-- Receive email/text reminders (depending on the users preference) 
+- Receive email/text reminders (depending on the users preference)
+  
+---
 
 ## Credits/Referencing
-
-- **ChatGBT:** Stretch Goals - User stories and some of the Main User Stories
- - **Unsplash** I used this online tool for free images of juices for the juice ingredients carousel on the Nutrition page
 
  | Source | Notes |
 | --- | --- |
@@ -291,14 +312,18 @@ FWL would like their future website to allow users to do the following;
 | [Boostrap](https://getbootstrap.com/) | Auto generated components|
 | [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
 | [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
-
+| [ChatGBT](https://chatgpt.com/) | AI tool to generate written content for the site|
+| [Unsplash](https://unsplash.com/) | An online tool providing high quality images |
+| [SimpleImageResizer](https://www.simpleimageresizer.com/) | Shrinking and resizing images |
 
 ### Media 
 All photos & videos except for the photos in the carousel on the nutrition page are property of Louise Skinner (my self). They were initially for a fitness app I wanted to build in 20222, but God had other plans for me and blessed me with my beautiful Son so the app was put on hold.Now the recordings and the FWL company logo (Fitness with Louise) can finally be put to good use.
 
-The images in the carousel in the nutrition page are from https://unsplash.com/ an website that provides free, high quality images.
+The images in the carousel in the nutrition page are from https://unsplash.com/ ,  a website that provides free, high quality images.
 
 ### Acknowledgements
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
+- I would like to thank my Code Institute totur, [Tom Cowen](cowen.t@runshaw.ac.uk) for providing insight into the project and encouraging me to produce work at a higher standard.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it feels good to be  part of a like minded community.
+- Most of all I would like to thank my Son, he is the driving force behind this and is the very reason I will never give up!
